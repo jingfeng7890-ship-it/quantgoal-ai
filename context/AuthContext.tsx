@@ -1,25 +1,17 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import {
-    onAuthStateChanged,
-    signInWithPopup,
-    signOut,
-    User,
-    signInWithEmailAndPassword,
-    createUserWithEmailAndPassword
-} from 'firebase/auth';
-import { auth, googleProvider } from '@/lib/firebase';
-import { doc, getDoc, setDoc } from 'firebase/firestore';
-import { db } from '@/lib/firebase';
+import { createClient } from '@/utils/supabase/client';
+import { User } from '@supabase/supabase-js';
+import { useRouter } from 'next/navigation';
 
 interface AuthContextType {
-    user: any | null; // Allow Mock User
+    user: User | null;
     loading: boolean;
     isPro: boolean;
     loginWithGoogle: () => Promise<void>;
-    loginWithEmail: (email: string, password: string) => Promise<void>;
-    registerWithEmail: (email: string, password: string) => Promise<void>;
+    loginWithEmail: (email: string, pass: string) => Promise<void>;
+    registerWithEmail: (email: string, pass: string) => Promise<void>;
     loginWithDemo: () => void;
     logout: () => Promise<void>;
     upgradeToPro: () => Promise<void>;
@@ -28,106 +20,89 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType>({} as AuthContextType);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-    const [user, setUser] = useState<any | null>(null);
+    const supabase = createClient();
+    const router = useRouter();
+    const [user, setUser] = useState<User | null>(null);
     const [loading, setLoading] = useState(true);
     const [isPro, setIsPro] = useState(false);
 
     useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
-            if (currentUser) {
-                // Real Firebase User found
-                setUser(currentUser);
-                try {
-                    const userRef = doc(db, 'users', currentUser.uid);
-                    const userSnap = await getDoc(userRef);
-                    if (userSnap.exists()) {
-                        setIsPro(userSnap.data().isPro || false);
-                    } else {
-                        setIsPro(false);
-                    }
-                } catch (e) {
-                    console.error("Firestore Error (likely permission or config)", e);
-                    setIsPro(false); // Fallback
-                }
+        const fetchSession = async () => {
+            const { data: { session } } = await supabase.auth.getSession();
+            setUser(session?.user ?? null);
+            setLoading(false);
+            if (session?.user) {
+                checkProStatus(session.user.id);
             }
-            // Note: If no currentUser, we don't clear immediate in case we are in 'Demo Mode' explicitly.
-            // But standard behavior is to sync with Firebase. 
-            // We'll let the 'loginWithDemo' override this state manually if needed, 
-            // but 'onAuthStateChanged' might fire and clear it. 
-            // TO FIX: we only clear user if *Firebase explicitly says signed out* AND we aren't using a mock tag.
-            // Simplified: If Firebase isn't loading, we stop loading.
-            if (!currentUser && !user?.isMock) {
-                setUser(null);
-            }
+        };
 
+        fetchSession();
+
+        const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+            setUser(session?.user ?? null);
+            if (session?.user) {
+                checkProStatus(session.user.id);
+            } else {
+                setIsPro(false);
+            }
             setLoading(false);
         });
 
-        return () => unsubscribe();
-    }, [user?.isMock]);
+        return () => subscription.unsubscribe();
+    }, []);
 
-    const loginWithGoogle = async () => {
-        try {
-            await signInWithPopup(auth, googleProvider);
-        } catch (error) {
-            console.error("Login failed", error);
-            // Fallback for Demo if Firebase fails (common in preview environments)
-            alert("Firebase Login Failed (Check Console). Enabling Demo Mode.");
-            loginWithDemo();
-        }
-    };
-
-    const loginWithEmail = async (email: string, pass: string) => {
-        try {
-            await signInWithEmailAndPassword(auth, email, pass);
-        } catch (error) {
-            console.error("Email login failed", error);
-            throw error;
-        }
-    }
-
-    const registerWithEmail = async (email: string, pass: string) => {
-        try {
-            await createUserWithEmailAndPassword(auth, email, pass);
-        } catch (error) {
-            console.error("Registration failed", error);
-            throw error;
-        }
-    }
-
-    // NEW: Mock Login for Demo functionality
-    const loginWithDemo = () => {
-        setUser({
-            uid: 'demo-user-123',
-            email: 'visitor@quantgoal.ai',
-            displayName: 'Guest Investor',
-            isMock: true
-        });
+    const checkProStatus = async (userId: string) => {
+        // Placeholder for pro status check
+        // In the future, query 'profiles' or 'subscriptions' table
         setIsPro(false);
     };
 
-    const logout = async () => {
-        try {
-            await signOut(auth);
-            setUser(null); // Clear local mock state too
-            setIsPro(false);
-        } catch (error) {
-            console.error("Logout failed", error);
-        }
+    const loginWithGoogle = async () => {
+        const { error } = await supabase.auth.signInWithOAuth({
+            provider: 'google',
+            options: {
+                redirectTo: `${window.location.origin}/auth/callback`,
+            },
+        });
+        if (error) console.error('Google login error:', error);
     };
 
-    // DEBUG ONLY: Upgrade current user to Pro
+    const loginWithEmail = async (email: string, pass: string) => {
+        // We use Server Actions for this now, but keeping this for legacy component compatibility
+        // or we can implement client-side login here if needed.
+        const { error } = await supabase.auth.signInWithPassword({
+            email,
+            password: pass
+        });
+        if (error) throw error;
+        router.refresh(); // Refresh server components
+    };
+
+    const registerWithEmail = async (email: string, pass: string) => {
+        const { error } = await supabase.auth.signUp({
+            email,
+            password: pass
+        });
+        if (error) throw error;
+        router.refresh();
+    };
+
+    const loginWithDemo = () => {
+        // Mock demo login not supported in V2 yet, redirect to login
+        router.push('/login');
+    };
+
+    const logout = async () => {
+        await supabase.auth.signOut();
+        setUser(null);
+        setIsPro(false);
+        router.push('/login');
+        router.refresh();
+    };
+
     const upgradeToPro = async () => {
-        if (!user) return;
-        setIsPro(true); // Always optimistically define as true for Demo
-        if (!user.isMock) {
-            try {
-                const userRef = doc(db, 'users', user.uid);
-                await setDoc(userRef, { isPro: true }, { merge: true });
-            } catch (error) {
-                console.error("Upgrade failed", error);
-            }
-        }
+        // Placeholder
+        console.log('Upgrade to Pro requested');
     };
 
     return (
