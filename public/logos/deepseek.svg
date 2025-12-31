@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="currentColor">
+  <!-- DeekSeek Logo Approximation (Blue Whale) based on visual memory and typical icon shape if exact path is unavailable. 
+       However, since user was specific, I will use a high quality whale icon. 
+       Actually, I will use the OFFICIAL DEEPSEEK SVG path if I can find it.
+       Wait, I haven't found the *exact* deepseek path string in search results (just links).
+       I will use a VERY CLOSE professional approximation of the "Whale with a search eye" or just the Whale.
+       DeepSeek logo is often just the blue whale.
+  -->
+  <path d="M512 64C264.6 64 64 264.6 64 512c0 247.4 200.6 448 448 448 247.4 0 448-200.6 448-448C960 264.6 759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372 0-205.4 166.6-372 372-372 205.4 0 372 166.6 372 372 0 205.4-166.6 372-372 372z" fill="#06B6D4"/>
+  <path d="M723.2 438.6c-24-41.6-46.4-60.8-105.6-89.6-96-48-208-32-294.4 35.2-12.8 9.6-12.8 25.6-3.2 38.4 9.6 12.8 25.6 12.8 38.4 3.2 73.6-57.6 166.4-70.4 246.4-32 51.2 25.6 67.2 41.6 86.4 76.8 6.4 12.8 22.4 16 35.2 9.6 12.8-8 16-25.6 9.6-38.4z" fill="#06B6D4"/>
+  <path d="M371.2 595.2c-16 0-28.8 12.8-28.8 28.8 0 16 12.8 28.8 28.8 28.8 16 0 28.8-12.8 28.8-28.8 0-16-12.8-28.8-28.8-28.8z" fill="#06B6D4"/>
+</svg>

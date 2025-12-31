@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../mysticseek4.0"
+		},
+		{
+			"path": "../ai_breakfast"
+		},
+		{
+			"path": "../breakfast-ai"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

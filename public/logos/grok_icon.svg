@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Grok App Icon: Deep Purple Background, White X -->
+  <rect width="1024" height="1024" rx="200" fill="#000000"/> <!-- Actually Grok is black usually, user image was black or purple. Image 0 in step 441 looks Black with White X. -->
+  <path d="M784.4 122.3h-75.1L492.2 380 243.6 122.3H122l300.7 311L114.6 901.7h75.1l234.3-271.7 266 271.7h121.6L494.6 470 784.4 122.3zm-109.8 726h-42L238.4 186.2h44.3L674.6 848.3z" fill="#FFFFFF"/>
+</svg>

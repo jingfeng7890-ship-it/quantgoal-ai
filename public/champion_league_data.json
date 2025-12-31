@@ -1,0 +1,1953 @@
+{
+  "meta": {
+    "season": "Pre-Season 2025",
+    "last_updated": "2025-12-19T11:31:45.881729",
+    "day_counter": 34
+  },
+  "models": {
+    "DeepSeek V3": {
+      "id": "deepseek_v3",
+      "name": "DeepSeek V3",
+      "style": "Balanced Quant",
+      "wallets": {
+        "core": 8322.810000000001,
+        "challenge": 1694.8404349727684,
+        "high_yield": 2413.4666240239076
+      },
+      "stats": {
+        "roi": 35.47,
+        "win_rate": 0,
+        "max_drawdown": 21.28,
+        "sharpe_ratio": 19.76,
+        "total_pnl": 3546.54
+      },
+      "capability_radar": {
+        "Tactics": 9,
+        "Underdogs": 8,
+        "High-Value": 9,
+        "Consistency": 6,
+        "Speed": 7
+      },
+      "history": [
+        {
+          "date": "2025-12-18",
+          "bets_placed": 12,
+          "core_pnl": 210.0,
+          "challenge_pnl": -2.95,
+          "high_yield_pnl": -42.46,
+          "total_pnl": 164.59,
+          "wallet_balance": 12431.12
+        },
+        {
+          "date": "2025-12-18",
+          "bets_placed": 6,
+          "core_pnl": 17.31,
+          "challenge_pnl": 4.95,
+          "high_yield_pnl": 2.47,
+          "total_pnl": 24.73,
+          "wallet_balance": 12266.53
+        },
+        {
+          "date": "2025-12-15",
+          "bets_placed": 9,
+          "core_pnl": 189.0,
+          "challenge_pnl": -22.28,
+          "high_yield_pnl": 99.46,
+          "total_pnl": 266.18,
+          "wallet_balance": 12241.8
+        },
+        {
+          "date": "2025-11-15",
+          "bets_placed": 5,
+          "core_pnl": 152.8,
+          "challenge_pnl": 91.68,
+          "high_yield_pnl": 61.12,
+          "total_pnl": 305.6,
+          "wallet_balance": 10305.6
+        },
+        {
+          "date": "2025-11-16",
+          "bets_placed": 4,
+          "core_pnl": 66.08,
+          "challenge_pnl": 39.65,
+          "high_yield_pnl": 26.43,
+          "total_pnl": 132.17,
+          "wallet_balance": 10437.77
+        },
+        {
+          "date": "2025-11-17",
+          "bets_placed": 11,
+          "core_pnl": 88.27,
+          "challenge_pnl": 52.96,
+          "high_yield_pnl": 35.31,
+          "total_pnl": 176.55,
+          "wallet_balance": 10614.32
+        },
+        {
+          "date": "2025-11-18",
+          "bets_placed": 12,
+          "core_pnl": 122.96,
+          "challenge_pnl": 73.78,
+          "high_yield_pnl": 49.18,
+          "total_pnl": 245.92,
+          "wallet_balance": 10860.24
+        },
+        {
+          "date": "2025-11-19",
+          "bets_placed": 4,
+          "core_pnl": -84.85,
+          "challenge_pnl": -50.91,
+          "high_yield_pnl": -33.94,
+          "total_pnl": -169.7,
+          "wallet_balance": 10690.54
+        },
+        {
+          "date": "2025-11-20",
+          "bets_placed": 5,
+          "core_pnl": 74.01,
+          "challenge_pnl": 44.41,
+          "high_yield_pnl": 29.6,
+          "total_pnl": 148.02,
+          "wallet_balance": 10838.56
+        },
+        {
+          "date": "2025-11-21",
+          "bets_placed": 8,
+          "core_pnl": 0.06,
+          "challenge_pnl": 0.04,
+          "high_yield_pnl": 0.03,
+          "total_pnl": 0.13,
+          "wallet_balance": 10838.68
+        },
+        {
+          "date": "2025-11-22",
+          "bets_placed": 10,
+          "core_pnl": 63.22,
+          "challenge_pnl": 37.93,
+          "high_yield_pnl": 25.29,
+          "total_pnl": 126.43,
+          "wallet_balance": 10965.12
+        },
+        {
+          "date": "2025-11-23",
+          "bets_placed": 7,
+          "core_pnl": 38.27,
+          "challenge_pnl": 22.96,
+          "high_yield_pnl": 15.31,
+          "total_pnl": 76.54,
+          "wallet_balance": 11041.66
+        },
+        {
+          "date": "2025-11-24",
+          "bets_placed": 6,
+          "core_pnl": 59.37,
+          "challenge_pnl": 35.62,
+          "high_yield_pnl": 23.75,
+          "total_pnl": 118.75,
+          "wallet_balance": 11160.4
+        },
+        {
+          "date": "2025-11-25",
+          "bets_placed": 7,
+          "core_pnl": 121.45,
+          "challenge_pnl": 72.87,
+          "high_yield_pnl": 48.58,
+          "total_pnl": 242.91,
+          "wallet_balance": 11403.31
+        },
+        {
+          "date": "2025-11-26",
+          "bets_placed": 3,
+          "core_pnl": 60.68,
+          "challenge_pnl": 36.41,
+          "high_yield_pnl": 24.27,
+          "total_pnl": 121.36,
+          "wallet_balance": 11524.67
+        },
+        {
+          "date": "2025-11-27",
+          "bets_placed": 4,
+          "core_pnl": -7.75,
+          "challenge_pnl": -4.65,
+          "high_yield_pnl": -3.1,
+          "total_pnl": -15.51,
+          "wallet_balance": 11509.17
+        },
+        {
+          "date": "2025-11-28",
+          "bets_placed": 11,
+          "core_pnl": 82.92,
+          "challenge_pnl": 49.75,
+          "high_yield_pnl": 33.17,
+          "total_pnl": 165.84,
+          "wallet_balance": 11675.01
+        },
+        {
+          "date": "2025-11-29",
+          "bets_placed": 9,
+          "core_pnl": 38.94,
+          "challenge_pnl": 23.36,
+          "high_yield_pnl": 15.58,
+          "total_pnl": 77.88,
+          "wallet_balance": 11752.89
+        },
+        {
+          "date": "2025-11-30",
+          "bets_placed": 3,
+          "core_pnl": 38.17,
+          "challenge_pnl": 22.9,
+          "high_yield_pnl": 15.27,
+          "total_pnl": 76.34,
+          "wallet_balance": 11829.23
+        },
+        {
+          "date": "2025-12-01",
+          "bets_placed": 9,
+          "core_pnl": -48.54,
+          "challenge_pnl": -29.12,
+          "high_yield_pnl": -19.42,
+          "total_pnl": -97.08,
+          "wallet_balance": 11732.15
+        },
+        {
+          "date": "2025-12-02",
+          "bets_placed": 4,
+          "core_pnl": 78.64,
+          "challenge_pnl": 47.18,
+          "high_yield_pnl": 31.46,
+          "total_pnl": 157.28,
+          "wallet_balance": 11889.43
+        },
+        {
+          "date": "2025-12-03",
+          "bets_placed": 7,
+          "core_pnl": 52.75,
+          "challenge_pnl": 31.65,
+          "high_yield_pnl": 21.1,
+          "total_pnl": 105.5,
+          "wallet_balance": 11994.93
+        },
+        {
+          "date": "2025-12-04",
+          "bets_placed": 7,
+          "core_pnl": 36.84,
+          "challenge_pnl": 22.11,
+          "high_yield_pnl": 14.74,
+          "total_pnl": 73.69,
+          "wallet_balance": 12068.61
+        },
+        {
+          "date": "2025-12-05",
+          "bets_placed": 10,
+          "core_pnl": -1.53,
+          "challenge_pnl": -0.92,
+          "high_yield_pnl": -0.61,
+          "total_pnl": -3.05,
+          "wallet_balance": 12065.56
+        },
+        {
+          "date": "2025-12-06",
+          "bets_placed": 4,
+          "core_pnl": 101.26,
+          "challenge_pnl": 60.76,
+          "high_yield_pnl": 40.5,
+          "total_pnl": 202.52,
+          "wallet_balance": 12268.08
+        },
+        {
+          "date": "2025-12-07",
+          "bets_placed": 11,
+          "core_pnl": -28.72,
+          "challenge_pnl": -17.23,
+          "high_yield_pnl": -11.49,
+          "total_pnl": -57.44,
+          "wallet_balance": 12210.65
+        },
+        {
+          "date": "2025-12-08",
+          "bets_placed": 12,
+          "core_pnl": 76.73,
+          "challenge_pnl": 46.04,
+          "high_yield_pnl": 30.69,
+          "total_pnl": 153.45,
+          "wallet_balance": 12364.1
+        },
+        {
+          "date": "2025-12-09",
+          "bets_placed": 8,
+          "core_pnl": 82.46,
+          "challenge_pnl": 49.48,
+          "high_yield_pnl": 32.98,
+          "total_pnl": 164.92,
+          "wallet_balance": 12529.02
+        },
+        {
+          "date": "2025-12-10",
+          "bets_placed": 7,
+          "core_pnl": 16.24,
+          "challenge_pnl": 9.75,
+          "high_yield_pnl": 6.5,
+          "total_pnl": 32.48,
+          "wallet_balance": 12561.5
+        },
+        {
+          "date": "2025-12-11",
+          "bets_placed": 10,
+          "core_pnl": 70.77,
+          "challenge_pnl": 42.46,
+          "high_yield_pnl": 28.31,
+          "total_pnl": 141.55,
+          "wallet_balance": 12703.05
+        },
+        {
+          "date": "2025-12-12",
+          "bets_placed": 5,
+          "core_pnl": 37.9,
+          "challenge_pnl": 22.74,
+          "high_yield_pnl": 15.16,
+          "total_pnl": 75.8,
+          "wallet_balance": 12778.85
+        },
+        {
+          "date": "2025-12-13",
+          "bets_placed": 7,
+          "core_pnl": 121.32,
+          "challenge_pnl": 72.79,
+          "high_yield_pnl": 48.53,
+          "total_pnl": 242.65,
+          "wallet_balance": 13021.5
+        },
+        {
+          "date": "2025-12-14",
+          "bets_placed": 7,
+          "core_pnl": 34.77,
+          "challenge_pnl": 20.86,
+          "high_yield_pnl": 13.91,
+          "total_pnl": 69.54,
+          "wallet_balance": 13091.04
+        }
+      ]
+    },
+    "Claude Opus 4.5": {
+      "id": "claude_opus_4_5",
+      "name": "Claude Opus 4.5",
+      "style": "Risk Averse",
+      "wallets": {
+        "core": 6565.99,
+        "challenge": 1205.521170299499,
+        "high_yield": 3680.5339324038487
+      },
+      "stats": {
+        "roi": 34.19,
+        "win_rate": 0,
+        "max_drawdown": 26.09,
+        "total_pnl": 3418.78,
+        "sharpe_ratio": 15.81
+      },
+      "history": [
+        {
+          "date": "2025-12-18",
+          "bets_placed": 12,
+          "core_pnl": -65.0,
+          "challenge_pnl": -9.94,
+          "high_yield_pnl": -39.56,
+          "total_pnl": -114.5,
+          "wallet_balance": 11452.05
+        },
+        {
+          "date": "2025-12-18",
+          "bets_placed": 6,
+          "core_pnl": 1.49,
+          "challenge_pnl": 0.43,
+          "high_yield_pnl": 0.21,
+          "total_pnl": 2.13,
+          "wallet_balance": 11566.55
+        },
+        {
+          "date": "2025-12-15",
+          "bets_placed": 4,
+          "core_pnl": 129.5,
+          "challenge_pnl": 15.03,
+          "high_yield_pnl": -80.12,
+          "total_pnl": 64.41,
+          "wallet_balance": 11564.41
+        },
+        {
+          "date": "2025-11-15",
+          "bets_placed": 4,
+          "core_pnl": -23.47,
+          "challenge_pnl": -14.08,
+          "high_yield_pnl": -9.39,
+          "total_pnl": -46.93,
+          "wallet_balance": 9953.07
+        },
+        {
+          "date": "2025-11-16",
+          "bets_placed": 10,
+          "core_pnl": 46.67,
+          "challenge_pnl": 28.0,
+          "high_yield_pnl": 18.67,
+          "total_pnl": 93.33,
+          "wallet_balance": 10046.4
+        },
+        {
+          "date": "2025-11-17",
+          "bets_placed": 11,
+          "core_pnl": 58.71,
+          "challenge_pnl": 35.23,
+          "high_yield_pnl": 23.48,
+          "total_pnl": 117.42,
+          "wallet_balance": 10163.82
+        },
+        {
+          "date": "2025-11-18",
+          "bets_placed": 7,
+          "core_pnl": 137.38,
+          "challenge_pnl": 82.43,
+          "high_yield_pnl": 54.95,
+          "total_pnl": 274.76,
+          "wallet_balance": 10438.59
+        },
+        {
+          "date": "2025-11-19",
+          "bets_placed": 7,
+          "core_pnl": -9.34,
+          "challenge_pnl": -5.61,
+          "high_yield_pnl": -3.74,
+          "total_pnl": -18.69,
+          "wallet_balance": 10419.9
+        },
+        {
+          "date": "2025-11-20",
+          "bets_placed": 11,
+          "core_pnl": 4.98,
+          "challenge_pnl": 2.99,
+          "high_yield_pnl": 1.99,
+          "total_pnl": 9.96,
+          "wallet_balance": 10429.86
+        },
+        {
+          "date": "2025-11-21",
+          "bets_placed": 7,
+          "core_pnl": 65.51,
+          "challenge_pnl": 39.3,
+          "high_yield_pnl": 26.2,
+          "total_pnl": 131.01,
+          "wallet_balance": 10560.87
+        },
+        {
+          "date": "2025-11-22",
+          "bets_placed": 5,
+          "core_pnl": -74.16,
+          "challenge_pnl": -44.49,
+          "high_yield_pnl": -29.66,
+          "total_pnl": -148.31,
+          "wallet_balance": 10412.56
+        },
+        {
+          "date": "2025-11-23",
+          "bets_placed": 11,
+          "core_pnl": 98.49,
+          "challenge_pnl": 59.1,
+          "high_yield_pnl": 39.4,
+          "total_pnl": 196.99,
+          "wallet_balance": 10609.55
+        },
+        {
+          "date": "2025-11-24",
+          "bets_placed": 8,
+          "core_pnl": 16.14,
+          "challenge_pnl": 9.68,
+          "high_yield_pnl": 6.46,
+          "total_pnl": 32.28,
+          "wallet_balance": 10641.82
+        },
+        {
+          "date": "2025-11-25",
+          "bets_placed": 11,
+          "core_pnl": -96.12,
+          "challenge_pnl": -57.67,
+          "high_yield_pnl": -38.45,
+          "total_pnl": -192.25,
+          "wallet_balance": 10449.58
+        },
+        {
+          "date": "2025-11-26",
+          "bets_placed": 4,
+          "core_pnl": 37.45,
+          "challenge_pnl": 22.47,
+          "high_yield_pnl": 14.98,
+          "total_pnl": 74.89,
+          "wallet_balance": 10524.47
+        },
+        {
+          "date": "2025-11-27",
+          "bets_placed": 12,
+          "core_pnl": 19.43,
+          "challenge_pnl": 11.66,
+          "high_yield_pnl": 7.77,
+          "total_pnl": 38.87,
+          "wallet_balance": 10563.34
+        },
+        {
+          "date": "2025-11-28",
+          "bets_placed": 12,
+          "core_pnl": 9.4,
+          "challenge_pnl": 5.64,
+          "high_yield_pnl": 3.76,
+          "total_pnl": 18.8,
+          "wallet_balance": 10582.14
+        },
+        {
+          "date": "2025-11-29",
+          "bets_placed": 4,
+          "core_pnl": 120.65,
+          "challenge_pnl": 72.39,
+          "high_yield_pnl": 48.26,
+          "total_pnl": 241.29,
+          "wallet_balance": 10823.43
+        },
+        {
+          "date": "2025-11-30",
+          "bets_placed": 3,
+          "core_pnl": 65.89,
+          "challenge_pnl": 39.53,
+          "high_yield_pnl": 26.35,
+          "total_pnl": 131.77,
+          "wallet_balance": 10955.2
+        },
+        {
+          "date": "2025-12-01",
+          "bets_placed": 3,
+          "core_pnl": 112.23,
+          "challenge_pnl": 67.34,
+          "high_yield_pnl": 44.89,
+          "total_pnl": 224.45,
+          "wallet_balance": 11179.65
+        },
+        {
+          "date": "2025-12-02",
+          "bets_placed": 10,
+          "core_pnl": 54.89,
+          "challenge_pnl": 32.93,
+          "high_yield_pnl": 21.96,
+          "total_pnl": 109.78,
+          "wallet_balance": 11289.43
+        },
+        {
+          "date": "2025-12-03",
+          "bets_placed": 8,
+          "core_pnl": 102.87,
+          "challenge_pnl": 61.72,
+          "high_yield_pnl": 41.15,
+          "total_pnl": 205.74,
+          "wallet_balance": 11495.17
+        },
+        {
+          "date": "2025-12-04",
+          "bets_placed": 9,
+          "core_pnl": 113.86,
+          "challenge_pnl": 68.32,
+          "high_yield_pnl": 45.55,
+          "total_pnl": 227.73,
+          "wallet_balance": 11722.9
+        },
+        {
+          "date": "2025-12-05",
+          "bets_placed": 5,
+          "core_pnl": 101.46,
+          "challenge_pnl": 60.87,
+          "high_yield_pnl": 40.58,
+          "total_pnl": 202.91,
+          "wallet_balance": 11925.81
+        },
+        {
+          "date": "2025-12-06",
+          "bets_placed": 12,
+          "core_pnl": -27.85,
+          "challenge_pnl": -16.71,
+          "high_yield_pnl": -11.14,
+          "total_pnl": -55.7,
+          "wallet_balance": 11870.11
+        },
+        {
+          "date": "2025-12-07",
+          "bets_placed": 4,
+          "core_pnl": 53.06,
+          "challenge_pnl": 31.84,
+          "high_yield_pnl": 21.22,
+          "total_pnl": 106.12,
+          "wallet_balance": 11976.23
+        },
+        {
+          "date": "2025-12-08",
+          "bets_placed": 10,
+          "core_pnl": 52.9,
+          "challenge_pnl": 31.74,
+          "high_yield_pnl": 21.16,
+          "total_pnl": 105.8,
+          "wallet_balance": 12082.04
+        },
+        {
+          "date": "2025-12-09",
+          "bets_placed": 4,
+          "core_pnl": 127.04,
+          "challenge_pnl": 76.22,
+          "high_yield_pnl": 50.81,
+          "total_pnl": 254.07,
+          "wallet_balance": 12336.11
+        },
+        {
+          "date": "2025-12-10",
+          "bets_placed": 11,
+          "core_pnl": 136.19,
+          "challenge_pnl": 81.71,
+          "high_yield_pnl": 54.48,
+          "total_pnl": 272.38,
+          "wallet_balance": 12608.49
+        },
+        {
+          "date": "2025-12-11",
+          "bets_placed": 7,
+          "core_pnl": 112.88,
+          "challenge_pnl": 67.73,
+          "high_yield_pnl": 45.15,
+          "total_pnl": 225.77,
+          "wallet_balance": 12834.25
+        },
+        {
+          "date": "2025-12-12",
+          "bets_placed": 3,
+          "core_pnl": 108.48,
+          "challenge_pnl": 65.09,
+          "high_yield_pnl": 43.39,
+          "total_pnl": 216.96,
+          "wallet_balance": 13051.22
+        },
+        {
+          "date": "2025-12-13",
+          "bets_placed": 10,
+          "core_pnl": 72.58,
+          "challenge_pnl": 43.55,
+          "high_yield_pnl": 29.03,
+          "total_pnl": 145.16,
+          "wallet_balance": 13196.37
+        },
+        {
+          "date": "2025-12-14",
+          "bets_placed": 12,
+          "core_pnl": 135.19,
+          "challenge_pnl": 81.11,
+          "high_yield_pnl": 54.08,
+          "total_pnl": 270.38,
+          "wallet_balance": 13466.75
+        }
+      ],
+      "capability_radar": {
+        "Stability": 5,
+        "Accuracy": 5,
+        "Logic": 5,
+        "Speed": 5,
+        "Value": 5
+      }
+    },
+    "Qwen 3 Max": {
+      "id": "qwen_3_max",
+      "name": "Qwen 3 Max",
+      "style": "Momentum Algo",
+      "wallets": {
+        "core": 6078.99,
+        "challenge": 2500.1821726789,
+        "high_yield": 1143.2777327498195
+      },
+      "stats": {
+        "roi": -11.29,
+        "win_rate": 0,
+        "max_drawdown": 12.6,
+        "total_pnl": -1128.59,
+        "sharpe_ratio": -3.2
+      },
+      "history": [
+        {
+          "date": "2025-12-18",
+          "bets_placed": 12,
+          "core_pnl": 1013.0,
+          "challenge_pnl": 53.66,
+          "high_yield_pnl": -31.62,
+          "total_pnl": 1035.04,
+          "wallet_balance": 9722.45
+        },
+        {
+          "date": "2025-12-18",
+          "bets_placed": 6,
+          "core_pnl": -63.51,
+          "challenge_pnl": -18.15,
+          "high_yield_pnl": -9.07,
+          "total_pnl": -90.73,
+          "wallet_balance": 8687.4
+        },
+        {
+          "date": "2025-12-15",
+          "bets_placed": 4,
+          "core_pnl": 129.5,
+          "challenge_pnl": -35.33,
+          "high_yield_pnl": 123.97,
+          "total_pnl": 218.14,
+          "wallet_balance": 8778.14
+        },
+        {
+          "date": "2025-11-15",
+          "bets_placed": 11,
+          "core_pnl": -30.27,
+          "challenge_pnl": -18.16,
+          "high_yield_pnl": -12.11,
+          "total_pnl": -60.54,
+          "wallet_balance": 9939.46
+        },
+        {
+          "date": "2025-11-16",
+          "bets_placed": 6,
+          "core_pnl": -67.32,
+          "challenge_pnl": -40.39,
+          "high_yield_pnl": -26.93,
+          "total_pnl": -134.65,
+          "wallet_balance": 9804.81
+        },
+        {
+          "date": "2025-11-17",
+          "bets_placed": 4,
+          "core_pnl": -6.26,
+          "challenge_pnl": -3.76,
+          "high_yield_pnl": -2.51,
+          "total_pnl": -12.53,
+          "wallet_balance": 9792.29
+        },
+        {
+          "date": "2025-11-18",
+          "bets_placed": 4,
+          "core_pnl": -24.97,
+          "challenge_pnl": -14.98,
+          "high_yield_pnl": -9.99,
+          "total_pnl": -49.95,
+          "wallet_balance": 9742.34
+        },
+        {
+          "date": "2025-11-19",
+          "bets_placed": 5,
+          "core_pnl": -22.45,
+          "challenge_pnl": -13.47,
+          "high_yield_pnl": -8.98,
+          "total_pnl": -44.91,
+          "wallet_balance": 9697.43
+        },
+        {
+          "date": "2025-11-20",
+          "bets_placed": 6,
+          "core_pnl": -34.06,
+          "challenge_pnl": -20.44,
+          "high_yield_pnl": -13.63,
+          "total_pnl": -68.13,
+          "wallet_balance": 9629.3
+        },
+        {
+          "date": "2025-11-21",
+          "bets_placed": 5,
+          "core_pnl": -5.2,
+          "challenge_pnl": -3.12,
+          "high_yield_pnl": -2.08,
+          "total_pnl": -10.4,
+          "wallet_balance": 9618.9
+        },
+        {
+          "date": "2025-11-22",
+          "bets_placed": 12,
+          "core_pnl": -70.34,
+          "challenge_pnl": -42.2,
+          "high_yield_pnl": -28.13,
+          "total_pnl": -140.67,
+          "wallet_balance": 9478.23
+        },
+        {
+          "date": "2025-11-23",
+          "bets_placed": 4,
+          "core_pnl": -26.79,
+          "challenge_pnl": -16.07,
+          "high_yield_pnl": -10.72,
+          "total_pnl": -53.58,
+          "wallet_balance": 9424.64
+        },
+        {
+          "date": "2025-11-24",
+          "bets_placed": 10,
+          "core_pnl": -69.96,
+          "challenge_pnl": -41.97,
+          "high_yield_pnl": -27.98,
+          "total_pnl": -139.91,
+          "wallet_balance": 9284.73
+        },
+        {
+          "date": "2025-11-25",
+          "bets_placed": 12,
+          "core_pnl": -32.41,
+          "challenge_pnl": -19.44,
+          "high_yield_pnl": -12.96,
+          "total_pnl": -64.81,
+          "wallet_balance": 9219.92
+        },
+        {
+          "date": "2025-11-26",
+          "bets_placed": 6,
+          "core_pnl": -31.49,
+          "challenge_pnl": -18.89,
+          "high_yield_pnl": -12.59,
+          "total_pnl": -62.97,
+          "wallet_balance": 9156.95
+        },
+        {
+          "date": "2025-11-27",
+          "bets_placed": 8,
+          "core_pnl": -43.38,
+          "challenge_pnl": -26.03,
+          "high_yield_pnl": -17.35,
+          "total_pnl": -86.76,
+          "wallet_balance": 9070.18
+        },
+        {
+          "date": "2025-11-28",
+          "bets_placed": 5,
+          "core_pnl": -66.06,
+          "challenge_pnl": -39.63,
+          "high_yield_pnl": -26.42,
+          "total_pnl": -132.11,
+          "wallet_balance": 8938.07
+        },
+        {
+          "date": "2025-11-29",
+          "bets_placed": 9,
+          "core_pnl": -11.8,
+          "challenge_pnl": -7.08,
+          "high_yield_pnl": -4.72,
+          "total_pnl": -23.59,
+          "wallet_balance": 8914.48
+        },
+        {
+          "date": "2025-11-30",
+          "bets_placed": 11,
+          "core_pnl": -47.84,
+          "challenge_pnl": -28.71,
+          "high_yield_pnl": -19.14,
+          "total_pnl": -95.68,
+          "wallet_balance": 8818.79
+        },
+        {
+          "date": "2025-12-01",
+          "bets_placed": 12,
+          "core_pnl": -36.18,
+          "challenge_pnl": -21.71,
+          "high_yield_pnl": -14.47,
+          "total_pnl": -72.36,
+          "wallet_balance": 8746.43
+        },
+        {
+          "date": "2025-12-02",
+          "bets_placed": 4,
+          "core_pnl": -23.61,
+          "challenge_pnl": -14.17,
+          "high_yield_pnl": -9.44,
+          "total_pnl": -47.22,
+          "wallet_balance": 8699.21
+        },
+        {
+          "date": "2025-12-03",
+          "bets_placed": 7,
+          "core_pnl": -11.15,
+          "challenge_pnl": -6.69,
+          "high_yield_pnl": -4.46,
+          "total_pnl": -22.29,
+          "wallet_balance": 8676.92
+        },
+        {
+          "date": "2025-12-04",
+          "bets_placed": 7,
+          "core_pnl": -12.3,
+          "challenge_pnl": -7.38,
+          "high_yield_pnl": -4.92,
+          "total_pnl": -24.61,
+          "wallet_balance": 8652.31
+        },
+        {
+          "date": "2025-12-05",
+          "bets_placed": 10,
+          "core_pnl": 31.25,
+          "challenge_pnl": 18.75,
+          "high_yield_pnl": 12.5,
+          "total_pnl": 62.5,
+          "wallet_balance": 8714.81
+        },
+        {
+          "date": "2025-12-06",
+          "bets_placed": 6,
+          "core_pnl": -90.36,
+          "challenge_pnl": -54.21,
+          "high_yield_pnl": -36.14,
+          "total_pnl": -180.71,
+          "wallet_balance": 8534.1
+        },
+        {
+          "date": "2025-12-07",
+          "bets_placed": 4,
+          "core_pnl": -28.29,
+          "challenge_pnl": -16.98,
+          "high_yield_pnl": -11.32,
+          "total_pnl": -56.58,
+          "wallet_balance": 8477.52
+        },
+        {
+          "date": "2025-12-08",
+          "bets_placed": 6,
+          "core_pnl": -49.13,
+          "challenge_pnl": -29.48,
+          "high_yield_pnl": -19.65,
+          "total_pnl": -98.26,
+          "wallet_balance": 8379.26
+        },
+        {
+          "date": "2025-12-09",
+          "bets_placed": 7,
+          "core_pnl": -9.09,
+          "challenge_pnl": -5.45,
+          "high_yield_pnl": -3.63,
+          "total_pnl": -18.17,
+          "wallet_balance": 8361.09
+        },
+        {
+          "date": "2025-12-10",
+          "bets_placed": 7,
+          "core_pnl": -53.17,
+          "challenge_pnl": -31.9,
+          "high_yield_pnl": -21.27,
+          "total_pnl": -106.35,
+          "wallet_balance": 8254.74
+        },
+        {
+          "date": "2025-12-11",
+          "bets_placed": 6,
+          "core_pnl": -12.8,
+          "challenge_pnl": -7.68,
+          "high_yield_pnl": -5.12,
+          "total_pnl": -25.61,
+          "wallet_balance": 8229.13
+        },
+        {
+          "date": "2025-12-12",
+          "bets_placed": 3,
+          "core_pnl": -68.47,
+          "challenge_pnl": -41.08,
+          "high_yield_pnl": -27.39,
+          "total_pnl": -136.95,
+          "wallet_balance": 8092.19
+        },
+        {
+          "date": "2025-12-13",
+          "bets_placed": 6,
+          "core_pnl": -131.36,
+          "challenge_pnl": -78.82,
+          "high_yield_pnl": -52.54,
+          "total_pnl": -262.72,
+          "wallet_balance": 7829.47
+        },
+        {
+          "date": "2025-12-14",
+          "bets_placed": 7,
+          "core_pnl": -60.26,
+          "challenge_pnl": -36.16,
+          "high_yield_pnl": -24.1,
+          "total_pnl": -120.52,
+          "wallet_balance": 7708.95
+        }
+      ],
+      "capability_radar": {
+        "Math": 9,
+        "OddsArbitrage": 9,
+        "Momentum": 8,
+        "Scalability": 8,
+        "Narrative": 4
+      }
+    },
+    "ChatGPT-5.2": {
+      "id": "chatgpt_5_2",
+      "name": "ChatGPT-5.2",
+      "style": "Consensus Aggregator",
+      "wallets": {
+        "core": 5863.58,
+        "challenge": 1483.2384277787214,
+        "high_yield": 1126.2237859502463
+      },
+      "stats": {
+        "roi": -23.21,
+        "win_rate": 0,
+        "max_drawdown": 14.72,
+        "total_pnl": -2321.05,
+        "sharpe_ratio": -18.96
+      },
+      "history": [
+        {
+          "date": "2025-12-18",
+          "bets_placed": 12,
+          "core_pnl": -60.0,
+          "challenge_pnl": 8.31,
+          "high_yield_pnl": -56.54,
+          "total_pnl": -108.23,
+          "wallet_balance": 8473.04
+        },
+        {
+          "date": "2025-12-18",
+          "bets_placed": 6,
+          "core_pnl": -65.92,
+          "challenge_pnl": -18.83,
+          "high_yield_pnl": -9.42,
+          "total_pnl": -94.17,
+          "wallet_balance": 8581.27
+        },
+        {
+          "date": "2025-12-15",
+          "bets_placed": 6,
+          "core_pnl": -10.5,
+          "challenge_pnl": -6.24,
+          "high_yield_pnl": -87.82,
+          "total_pnl": -104.56,
+          "wallet_balance": 8675.44
+        },
+        {
+          "date": "2025-11-15",
+          "bets_placed": 3,
+          "core_pnl": -32.46,
+          "challenge_pnl": -19.48,
+          "high_yield_pnl": -12.98,
+          "total_pnl": -64.92,
+          "wallet_balance": 9935.08
+        },
+        {
+          "date": "2025-11-16",
+          "bets_placed": 8,
+          "core_pnl": -39.8,
+          "challenge_pnl": -23.88,
+          "high_yield_pnl": -15.92,
+          "total_pnl": -79.59,
+          "wallet_balance": 9855.49
+        },
+        {
+          "date": "2025-11-17",
+          "bets_placed": 10,
+          "core_pnl": -20.99,
+          "challenge_pnl": -12.59,
+          "high_yield_pnl": -8.4,
+          "total_pnl": -41.98,
+          "wallet_balance": 9813.51
+        },
+        {
+          "date": "2025-11-18",
+          "bets_placed": 7,
+          "core_pnl": -30.41,
+          "challenge_pnl": -18.25,
+          "high_yield_pnl": -12.16,
+          "total_pnl": -60.82,
+          "wallet_balance": 9752.68
+        },
+        {
+          "date": "2025-11-19",
+          "bets_placed": 11,
+          "core_pnl": -72.04,
+          "challenge_pnl": -43.22,
+          "high_yield_pnl": -28.81,
+          "total_pnl": -144.07,
+          "wallet_balance": 9608.61
+        },
+        {
+          "date": "2025-11-20",
+          "bets_placed": 9,
+          "core_pnl": -41.22,
+          "challenge_pnl": -24.73,
+          "high_yield_pnl": -16.49,
+          "total_pnl": -82.43,
+          "wallet_balance": 9526.18
+        },
+        {
+          "date": "2025-11-21",
+          "bets_placed": 12,
+          "core_pnl": -6.39,
+          "challenge_pnl": -3.83,
+          "high_yield_pnl": -2.56,
+          "total_pnl": -12.78,
+          "wallet_balance": 9513.4
+        },
+        {
+          "date": "2025-11-22",
+          "bets_placed": 10,
+          "core_pnl": 35.2,
+          "challenge_pnl": 21.12,
+          "high_yield_pnl": 14.08,
+          "total_pnl": 70.4,
+          "wallet_balance": 9583.8
+        },
+        {
+          "date": "2025-11-23",
+          "bets_placed": 3,
+          "core_pnl": -12.85,
+          "challenge_pnl": -7.71,
+          "high_yield_pnl": -5.14,
+          "total_pnl": -25.69,
+          "wallet_balance": 9558.11
+        },
+        {
+          "date": "2025-11-24",
+          "bets_placed": 8,
+          "core_pnl": -22.34,
+          "challenge_pnl": -13.41,
+          "high_yield_pnl": -8.94,
+          "total_pnl": -44.69,
+          "wallet_balance": 9513.42
+        },
+        {
+          "date": "2025-11-25",
+          "bets_placed": 4,
+          "core_pnl": -106.39,
+          "challenge_pnl": -63.83,
+          "high_yield_pnl": -42.55,
+          "total_pnl": -212.77,
+          "wallet_balance": 9300.65
+        },
+        {
+          "date": "2025-11-26",
+          "bets_placed": 12,
+          "core_pnl": -17.92,
+          "challenge_pnl": -10.75,
+          "high_yield_pnl": -7.17,
+          "total_pnl": -35.84,
+          "wallet_balance": 9264.81
+        },
+        {
+          "date": "2025-11-27",
+          "bets_placed": 7,
+          "core_pnl": 50.13,
+          "challenge_pnl": 30.08,
+          "high_yield_pnl": 20.05,
+          "total_pnl": 100.26,
+          "wallet_balance": 9365.07
+        },
+        {
+          "date": "2025-11-28",
+          "bets_placed": 7,
+          "core_pnl": -68.2,
+          "challenge_pnl": -40.92,
+          "high_yield_pnl": -27.28,
+          "total_pnl": -136.4,
+          "wallet_balance": 9228.67
+        },
+        {
+          "date": "2025-11-29",
+          "bets_placed": 10,
+          "core_pnl": -35.16,
+          "challenge_pnl": -21.1,
+          "high_yield_pnl": -14.07,
+          "total_pnl": -70.33,
+          "wallet_balance": 9158.34
+        },
+        {
+          "date": "2025-11-30",
+          "bets_placed": 8,
+          "core_pnl": -121.39,
+          "challenge_pnl": -72.83,
+          "high_yield_pnl": -48.55,
+          "total_pnl": -242.77,
+          "wallet_balance": 8915.57
+        },
+        {
+          "date": "2025-12-01",
+          "bets_placed": 3,
+          "core_pnl": 18.76,
+          "challenge_pnl": 11.25,
+          "high_yield_pnl": 7.5,
+          "total_pnl": 37.51,
+          "wallet_balance": 8953.08
+        },
+        {
+          "date": "2025-12-02",
+          "bets_placed": 9,
+          "core_pnl": -20.71,
+          "challenge_pnl": -12.42,
+          "high_yield_pnl": -8.28,
+          "total_pnl": -41.42,
+          "wallet_balance": 8911.67
+        },
+        {
+          "date": "2025-12-03",
+          "bets_placed": 8,
+          "core_pnl": -18.02,
+          "challenge_pnl": -10.81,
+          "high_yield_pnl": -7.21,
+          "total_pnl": -36.04,
+          "wallet_balance": 8875.62
+        },
+        {
+          "date": "2025-12-04",
+          "bets_placed": 8,
+          "core_pnl": -30.27,
+          "challenge_pnl": -18.16,
+          "high_yield_pnl": -12.11,
+          "total_pnl": -60.55,
+          "wallet_balance": 8815.07
+        },
+        {
+          "date": "2025-12-05",
+          "bets_placed": 4,
+          "core_pnl": -52.7,
+          "challenge_pnl": -31.62,
+          "high_yield_pnl": -21.08,
+          "total_pnl": -105.4,
+          "wallet_balance": 8709.67
+        },
+        {
+          "date": "2025-12-06",
+          "bets_placed": 3,
+          "core_pnl": -0.85,
+          "challenge_pnl": -0.51,
+          "high_yield_pnl": -0.34,
+          "total_pnl": -1.71,
+          "wallet_balance": 8707.96
+        },
+        {
+          "date": "2025-12-07",
+          "bets_placed": 6,
+          "core_pnl": -54.59,
+          "challenge_pnl": -32.76,
+          "high_yield_pnl": -21.84,
+          "total_pnl": -109.19,
+          "wallet_balance": 8598.78
+        },
+        {
+          "date": "2025-12-08",
+          "bets_placed": 6,
+          "core_pnl": -35.77,
+          "challenge_pnl": -21.46,
+          "high_yield_pnl": -14.31,
+          "total_pnl": -71.54,
+          "wallet_balance": 8527.24
+        },
+        {
+          "date": "2025-12-09",
+          "bets_placed": 10,
+          "core_pnl": -45.98,
+          "challenge_pnl": -27.59,
+          "high_yield_pnl": -18.39,
+          "total_pnl": -91.97,
+          "wallet_balance": 8435.27
+        },
+        {
+          "date": "2025-12-10",
+          "bets_placed": 11,
+          "core_pnl": -37.01,
+          "challenge_pnl": -22.21,
+          "high_yield_pnl": -14.8,
+          "total_pnl": -74.02,
+          "wallet_balance": 8361.25
+        },
+        {
+          "date": "2025-12-11",
+          "bets_placed": 5,
+          "core_pnl": -49.05,
+          "challenge_pnl": -29.43,
+          "high_yield_pnl": -19.62,
+          "total_pnl": -98.1,
+          "wallet_balance": 8263.15
+        },
+        {
+          "date": "2025-12-12",
+          "bets_placed": 8,
+          "core_pnl": -59.24,
+          "challenge_pnl": -35.54,
+          "high_yield_pnl": -23.7,
+          "total_pnl": -118.48,
+          "wallet_balance": 8144.66
+        },
+        {
+          "date": "2025-12-13",
+          "bets_placed": 12,
+          "core_pnl": 11.18,
+          "challenge_pnl": 6.71,
+          "high_yield_pnl": 4.47,
+          "total_pnl": 22.35,
+          "wallet_balance": 8167.02
+        },
+        {
+          "date": "2025-12-14",
+          "bets_placed": 9,
+          "core_pnl": -90.55,
+          "challenge_pnl": -54.33,
+          "high_yield_pnl": -36.22,
+          "total_pnl": -181.11,
+          "wallet_balance": 7985.91
+        }
+      ],
+      "capability_radar": {
+        "Stability": 5,
+        "Accuracy": 5,
+        "Logic": 5,
+        "Speed": 5,
+        "Value": 5
+      }
+    },
+    "Gemini 3 Pro": {
+      "id": "gemini_3_pro",
+      "name": "Gemini 3 Pro",
+      "style": "Narrative Sentiment",
+      "wallets": {
+        "core": 4472.9,
+        "challenge": 3069.128929138147,
+        "high_yield": 1540.3095999305247
+      },
+      "stats": {
+        "roi": -4.83,
+        "win_rate": 0,
+        "max_drawdown": 9.98,
+        "total_pnl": -482.72,
+        "sharpe_ratio": -6.26
+      },
+      "history": [
+        {
+          "date": "2025-12-18",
+          "bets_placed": 12,
+          "core_pnl": 38.0,
+          "challenge_pnl": 39.52,
+          "high_yield_pnl": -77.14,
+          "total_pnl": 0.38,
+          "wallet_balance": 9082.34
+        },
+        {
+          "date": "2025-12-18",
+          "bets_placed": 6,
+          "core_pnl": -54.6,
+          "challenge_pnl": -15.6,
+          "high_yield_pnl": -7.8,
+          "total_pnl": -78.0,
+          "wallet_balance": 9081.96
+        },
+        {
+          "date": "2025-12-15",
+          "bets_placed": 6,
+          "core_pnl": -10.5,
+          "challenge_pnl": 45.2,
+          "high_yield_pnl": 125.25,
+          "total_pnl": 159.96,
+          "wallet_balance": 9159.96
+        },
+        {
+          "date": "2025-11-15",
+          "bets_placed": 11,
+          "core_pnl": 9.65,
+          "challenge_pnl": 5.79,
+          "high_yield_pnl": 3.86,
+          "total_pnl": 19.3,
+          "wallet_balance": 10019.3
+        },
+        {
+          "date": "2025-11-16",
+          "bets_placed": 11,
+          "core_pnl": 2.09,
+          "challenge_pnl": 1.25,
+          "high_yield_pnl": 0.84,
+          "total_pnl": 4.18,
+          "wallet_balance": 10023.49
+        },
+        {
+          "date": "2025-11-17",
+          "bets_placed": 6,
+          "core_pnl": 3.03,
+          "challenge_pnl": 1.82,
+          "high_yield_pnl": 1.21,
+          "total_pnl": 6.06,
+          "wallet_balance": 10029.54
+        },
+        {
+          "date": "2025-11-18",
+          "bets_placed": 12,
+          "core_pnl": -8.47,
+          "challenge_pnl": -5.08,
+          "high_yield_pnl": -3.39,
+          "total_pnl": -16.94,
+          "wallet_balance": 10012.6
+        },
+        {
+          "date": "2025-11-19",
+          "bets_placed": 3,
+          "core_pnl": 18.21,
+          "challenge_pnl": 10.93,
+          "high_yield_pnl": 7.29,
+          "total_pnl": 36.43,
+          "wallet_balance": 10049.03
+        },
+        {
+          "date": "2025-11-20",
+          "bets_placed": 4,
+          "core_pnl": 19.7,
+          "challenge_pnl": 11.82,
+          "high_yield_pnl": 7.88,
+          "total_pnl": 39.4,
+          "wallet_balance": 10088.43
+        },
+        {
+          "date": "2025-11-21",
+          "bets_placed": 10,
+          "core_pnl": -26.12,
+          "challenge_pnl": -15.67,
+          "high_yield_pnl": -10.45,
+          "total_pnl": -52.24,
+          "wallet_balance": 10036.19
+        },
+        {
+          "date": "2025-11-22",
+          "bets_placed": 12,
+          "core_pnl": -3.33,
+          "challenge_pnl": -2.0,
+          "high_yield_pnl": -1.33,
+          "total_pnl": -6.66,
+          "wallet_balance": 10029.53
+        },
+        {
+          "date": "2025-11-23",
+          "bets_placed": 10,
+          "core_pnl": 2.29,
+          "challenge_pnl": 1.37,
+          "high_yield_pnl": 0.91,
+          "total_pnl": 4.57,
+          "wallet_balance": 10034.11
+        },
+        {
+          "date": "2025-11-24",
+          "bets_placed": 3,
+          "core_pnl": -9.94,
+          "challenge_pnl": -5.96,
+          "high_yield_pnl": -3.97,
+          "total_pnl": -19.87,
+          "wallet_balance": 10014.24
+        },
+        {
+          "date": "2025-11-25",
+          "bets_placed": 8,
+          "core_pnl": -15.71,
+          "challenge_pnl": -9.43,
+          "high_yield_pnl": -6.29,
+          "total_pnl": -31.43,
+          "wallet_balance": 9982.81
+        },
+        {
+          "date": "2025-11-26",
+          "bets_placed": 3,
+          "core_pnl": -6.43,
+          "challenge_pnl": -3.86,
+          "high_yield_pnl": -2.57,
+          "total_pnl": -12.87,
+          "wallet_balance": 9969.94
+        },
+        {
+          "date": "2025-11-27",
+          "bets_placed": 3,
+          "core_pnl": -26.63,
+          "challenge_pnl": -15.98,
+          "high_yield_pnl": -10.65,
+          "total_pnl": -53.27,
+          "wallet_balance": 9916.67
+        },
+        {
+          "date": "2025-11-28",
+          "bets_placed": 6,
+          "core_pnl": -5.54,
+          "challenge_pnl": -3.32,
+          "high_yield_pnl": -2.22,
+          "total_pnl": -11.08,
+          "wallet_balance": 9905.6
+        },
+        {
+          "date": "2025-11-29",
+          "bets_placed": 10,
+          "core_pnl": -31.42,
+          "challenge_pnl": -18.85,
+          "high_yield_pnl": -12.57,
+          "total_pnl": -62.84,
+          "wallet_balance": 9842.76
+        },
+        {
+          "date": "2025-11-30",
+          "bets_placed": 5,
+          "core_pnl": -9.41,
+          "challenge_pnl": -5.65,
+          "high_yield_pnl": -3.76,
+          "total_pnl": -18.82,
+          "wallet_balance": 9823.94
+        },
+        {
+          "date": "2025-12-01",
+          "bets_placed": 3,
+          "core_pnl": -11.72,
+          "challenge_pnl": -7.03,
+          "high_yield_pnl": -4.69,
+          "total_pnl": -23.43,
+          "wallet_balance": 9800.51
+        },
+        {
+          "date": "2025-12-02",
+          "bets_placed": 12,
+          "core_pnl": -9.49,
+          "challenge_pnl": -5.7,
+          "high_yield_pnl": -3.8,
+          "total_pnl": -18.99,
+          "wallet_balance": 9781.52
+        },
+        {
+          "date": "2025-12-03",
+          "bets_placed": 6,
+          "core_pnl": 8.3,
+          "challenge_pnl": 4.98,
+          "high_yield_pnl": 3.32,
+          "total_pnl": 16.61,
+          "wallet_balance": 9798.13
+        },
+        {
+          "date": "2025-12-04",
+          "bets_placed": 5,
+          "core_pnl": 27.85,
+          "challenge_pnl": 16.71,
+          "high_yield_pnl": 11.14,
+          "total_pnl": 55.7,
+          "wallet_balance": 9853.83
+        },
+        {
+          "date": "2025-12-05",
+          "bets_placed": 5,
+          "core_pnl": -18.04,
+          "challenge_pnl": -10.82,
+          "high_yield_pnl": -7.21,
+          "total_pnl": -36.07,
+          "wallet_balance": 9817.76
+        },
+        {
+          "date": "2025-12-06",
+          "bets_placed": 4,
+          "core_pnl": -27.27,
+          "challenge_pnl": -16.36,
+          "high_yield_pnl": -10.91,
+          "total_pnl": -54.54,
+          "wallet_balance": 9763.22
+        },
+        {
+          "date": "2025-12-07",
+          "bets_placed": 5,
+          "core_pnl": -19.58,
+          "challenge_pnl": -11.75,
+          "high_yield_pnl": -7.83,
+          "total_pnl": -39.16,
+          "wallet_balance": 9724.06
+        },
+        {
+          "date": "2025-12-08",
+          "bets_placed": 3,
+          "core_pnl": -2.7,
+          "challenge_pnl": -1.62,
+          "high_yield_pnl": -1.08,
+          "total_pnl": -5.4,
+          "wallet_balance": 9718.66
+        },
+        {
+          "date": "2025-12-09",
+          "bets_placed": 3,
+          "core_pnl": -12.64,
+          "challenge_pnl": -7.58,
+          "high_yield_pnl": -5.05,
+          "total_pnl": -25.27,
+          "wallet_balance": 9693.38
+        },
+        {
+          "date": "2025-12-10",
+          "bets_placed": 6,
+          "core_pnl": -16.69,
+          "challenge_pnl": -10.01,
+          "high_yield_pnl": -6.67,
+          "total_pnl": -33.37,
+          "wallet_balance": 9660.01
+        },
+        {
+          "date": "2025-12-11",
+          "bets_placed": 12,
+          "core_pnl": -35.47,
+          "challenge_pnl": -21.28,
+          "high_yield_pnl": -14.19,
+          "total_pnl": -70.94,
+          "wallet_balance": 9589.08
+        },
+        {
+          "date": "2025-12-12",
+          "bets_placed": 4,
+          "core_pnl": -38.51,
+          "challenge_pnl": -23.11,
+          "high_yield_pnl": -15.41,
+          "total_pnl": -77.03,
+          "wallet_balance": 9512.05
+        },
+        {
+          "date": "2025-12-13",
+          "bets_placed": 4,
+          "core_pnl": -15.73,
+          "challenge_pnl": -9.44,
+          "high_yield_pnl": -6.29,
+          "total_pnl": -31.45,
+          "wallet_balance": 9480.6
+        },
+        {
+          "date": "2025-12-14",
+          "bets_placed": 8,
+          "core_pnl": -22.82,
+          "challenge_pnl": -13.69,
+          "high_yield_pnl": -9.13,
+          "total_pnl": -45.64,
+          "wallet_balance": 9434.96
+        }
+      ],
+      "capability_radar": {
+        "Stability": 5,
+        "Accuracy": 5,
+        "Logic": 5,
+        "Speed": 5,
+        "Value": 5
+      }
+    },
+    "Grok 3 (Beta)": {
+      "id": "grok_3_beta",
+      "name": "Grok 3 (Beta)",
+      "style": "Degenerate Gambler",
+      "wallets": {
+        "core": 4064.2799999999997,
+        "challenge": 4025.7311300373603,
+        "high_yield": 4215.291528040693
+      },
+      "stats": {
+        "roi": 49.83,
+        "win_rate": 0,
+        "max_drawdown": 31.62,
+        "total_pnl": 4983.36,
+        "sharpe_ratio": 21.26
+      },
+      "history": [
+        {
+          "date": "2025-12-18",
+          "bets_placed": 12,
+          "core_pnl": -215.0,
+          "challenge_pnl": 15.48,
+          "high_yield_pnl": 107.12,
+          "total_pnl": -92.41,
+          "wallet_balance": 12305.3
+        },
+        {
+          "date": "2025-12-18",
+          "bets_placed": 6,
+          "core_pnl": 20.28,
+          "challenge_pnl": 5.79,
+          "high_yield_pnl": 2.9,
+          "total_pnl": 28.97,
+          "wallet_balance": 12397.7
+        },
+        {
+          "date": "2025-12-15",
+          "bets_placed": 8,
+          "core_pnl": 259.0,
+          "challenge_pnl": 4.47,
+          "high_yield_pnl": 105.27,
+          "total_pnl": 368.74,
+          "wallet_balance": 12368.74
+        },
+        {
+          "date": "2025-11-15",
+          "bets_placed": 6,
+          "core_pnl": 18.16,
+          "challenge_pnl": 10.9,
+          "high_yield_pnl": 7.27,
+          "total_pnl": 36.33,
+          "wallet_balance": 10036.33
+        },
+        {
+          "date": "2025-11-16",
+          "bets_placed": 5,
+          "core_pnl": 51.15,
+          "challenge_pnl": 30.69,
+          "high_yield_pnl": 20.46,
+          "total_pnl": 102.31,
+          "wallet_balance": 10138.63
+        },
+        {
+          "date": "2025-11-17",
+          "bets_placed": 11,
+          "core_pnl": 120.9,
+          "challenge_pnl": 72.54,
+          "high_yield_pnl": 48.36,
+          "total_pnl": 241.79,
+          "wallet_balance": 10380.42
+        },
+        {
+          "date": "2025-11-18",
+          "bets_placed": 5,
+          "core_pnl": 147.88,
+          "challenge_pnl": 88.73,
+          "high_yield_pnl": 59.15,
+          "total_pnl": 295.75,
+          "wallet_balance": 10676.18
+        },
+        {
+          "date": "2025-11-19",
+          "bets_placed": 7,
+          "core_pnl": 75.38,
+          "challenge_pnl": 45.23,
+          "high_yield_pnl": 30.15,
+          "total_pnl": 150.75,
+          "wallet_balance": 10826.93
+        },
+        {
+          "date": "2025-11-20",
+          "bets_placed": 9,
+          "core_pnl": 106.24,
+          "challenge_pnl": 63.74,
+          "high_yield_pnl": 42.5,
+          "total_pnl": 212.48,
+          "wallet_balance": 11039.41
+        },
+        {
+          "date": "2025-11-21",
+          "bets_placed": 4,
+          "core_pnl": 101.06,
+          "challenge_pnl": 60.63,
+          "high_yield_pnl": 40.42,
+          "total_pnl": 202.11,
+          "wallet_balance": 11241.52
+        },
+        {
+          "date": "2025-11-22",
+          "bets_placed": 9,
+          "core_pnl": 119.02,
+          "challenge_pnl": 71.41,
+          "high_yield_pnl": 47.61,
+          "total_pnl": 238.03,
+          "wallet_balance": 11479.56
+        },
+        {
+          "date": "2025-11-23",
+          "bets_placed": 4,
+          "core_pnl": 66.12,
+          "challenge_pnl": 39.67,
+          "high_yield_pnl": 26.45,
+          "total_pnl": 132.24,
+          "wallet_balance": 11611.79
+        },
+        {
+          "date": "2025-11-24",
+          "bets_placed": 5,
+          "core_pnl": 68.64,
+          "challenge_pnl": 41.18,
+          "high_yield_pnl": 27.45,
+          "total_pnl": 137.27,
+          "wallet_balance": 11749.07
+        },
+        {
+          "date": "2025-11-25",
+          "bets_placed": 5,
+          "core_pnl": 13.98,
+          "challenge_pnl": 8.39,
+          "high_yield_pnl": 5.59,
+          "total_pnl": 27.97,
+          "wallet_balance": 11777.04
+        },
+        {
+          "date": "2025-11-26",
+          "bets_placed": 5,
+          "core_pnl": 43.95,
+          "challenge_pnl": 26.37,
+          "high_yield_pnl": 17.58,
+          "total_pnl": 87.91,
+          "wallet_balance": 11864.94
+        },
+        {
+          "date": "2025-11-27",
+          "bets_placed": 4,
+          "core_pnl": 116.56,
+          "challenge_pnl": 69.94,
+          "high_yield_pnl": 46.62,
+          "total_pnl": 233.12,
+          "wallet_balance": 12098.06
+        },
+        {
+          "date": "2025-11-28",
+          "bets_placed": 8,
+          "core_pnl": 2.93,
+          "challenge_pnl": 1.76,
+          "high_yield_pnl": 1.17,
+          "total_pnl": 5.87,
+          "wallet_balance": 12103.93
+        },
+        {
+          "date": "2025-11-29",
+          "bets_placed": 4,
+          "core_pnl": 160.18,
+          "challenge_pnl": 96.11,
+          "high_yield_pnl": 64.07,
+          "total_pnl": 320.36,
+          "wallet_balance": 12424.29
+        },
+        {
+          "date": "2025-11-30",
+          "bets_placed": 11,
+          "core_pnl": 167.19,
+          "challenge_pnl": 100.32,
+          "high_yield_pnl": 66.88,
+          "total_pnl": 334.39,
+          "wallet_balance": 12758.68
+        },
+        {
+          "date": "2025-12-01",
+          "bets_placed": 4,
+          "core_pnl": 24.39,
+          "challenge_pnl": 14.64,
+          "high_yield_pnl": 9.76,
+          "total_pnl": 48.79,
+          "wallet_balance": 12807.47
+        },
+        {
+          "date": "2025-12-02",
+          "bets_placed": 10,
+          "core_pnl": 62.94,
+          "challenge_pnl": 37.77,
+          "high_yield_pnl": 25.18,
+          "total_pnl": 125.88,
+          "wallet_balance": 12933.35
+        },
+        {
+          "date": "2025-12-03",
+          "bets_placed": 11,
+          "core_pnl": 11.11,
+          "challenge_pnl": 6.67,
+          "high_yield_pnl": 4.45,
+          "total_pnl": 22.23,
+          "wallet_balance": 12955.58
+        },
+        {
+          "date": "2025-12-04",
+          "bets_placed": 11,
+          "core_pnl": 67.94,
+          "challenge_pnl": 40.76,
+          "high_yield_pnl": 27.17,
+          "total_pnl": 135.87,
+          "wallet_balance": 13091.45
+        },
+        {
+          "date": "2025-12-05",
+          "bets_placed": 4,
+          "core_pnl": 26.73,
+          "challenge_pnl": 16.04,
+          "high_yield_pnl": 10.69,
+          "total_pnl": 53.45,
+          "wallet_balance": 13144.9
+        },
+        {
+          "date": "2025-12-06",
+          "bets_placed": 3,
+          "core_pnl": 219.72,
+          "challenge_pnl": 131.83,
+          "high_yield_pnl": 87.89,
+          "total_pnl": 439.44,
+          "wallet_balance": 13584.34
+        },
+        {
+          "date": "2025-12-07",
+          "bets_placed": 11,
+          "core_pnl": 35.61,
+          "challenge_pnl": 21.37,
+          "high_yield_pnl": 14.25,
+          "total_pnl": 71.23,
+          "wallet_balance": 13655.57
+        },
+        {
+          "date": "2025-12-08",
+          "bets_placed": 8,
+          "core_pnl": 52.25,
+          "challenge_pnl": 31.35,
+          "high_yield_pnl": 20.9,
+          "total_pnl": 104.51,
+          "wallet_balance": 13760.08
+        },
+        {
+          "date": "2025-12-09",
+          "bets_placed": 12,
+          "core_pnl": -88.36,
+          "challenge_pnl": -53.01,
+          "high_yield_pnl": -35.34,
+          "total_pnl": -176.72,
+          "wallet_balance": 13583.36
+        },
+        {
+          "date": "2025-12-10",
+          "bets_placed": 5,
+          "core_pnl": 6.31,
+          "challenge_pnl": 3.79,
+          "high_yield_pnl": 2.53,
+          "total_pnl": 12.63,
+          "wallet_balance": 13595.99
+        },
+        {
+          "date": "2025-12-11",
+          "bets_placed": 3,
+          "core_pnl": 124.0,
+          "challenge_pnl": 74.4,
+          "high_yield_pnl": 49.6,
+          "total_pnl": 248.01,
+          "wallet_balance": 13843.99
+        },
+        {
+          "date": "2025-12-12",
+          "bets_placed": 12,
+          "core_pnl": 112.69,
+          "challenge_pnl": 67.61,
+          "high_yield_pnl": 45.08,
+          "total_pnl": 225.38,
+          "wallet_balance": 14069.37
+        },
+        {
+          "date": "2025-12-13",
+          "bets_placed": 8,
+          "core_pnl": 147.4,
+          "challenge_pnl": 88.44,
+          "high_yield_pnl": 58.96,
+          "total_pnl": 294.79,
+          "wallet_balance": 14364.16
+        },
+        {
+          "date": "2025-12-14",
+          "bets_placed": 3,
+          "core_pnl": 156.94,
+          "challenge_pnl": 94.17,
+          "high_yield_pnl": 62.78,
+          "total_pnl": 313.89,
+          "wallet_balance": 14678.05
+        }
+      ],
+      "capability_radar": {
+        "Stability": 5,
+        "Accuracy": 5,
+        "Logic": 5,
+        "Speed": 5,
+        "Value": 5
+      }
+    }
+  },
+  "news": {
+    "headline": "Market Update: Qwen 3 Max surges ahead while Claude Opus 4.5 struggles.",
+    "top_performer": "Qwen 3 Max",
+    "top_pnl": 1035.04,
+    "updated_at": "14:42"
+  }
+}

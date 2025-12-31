@@ -1,0 +1,2047 @@
+[
+  {
+    "id": "v4_real_7abc36182b313c505fcdb6e1bd124ced",
+    "match_info": {
+      "id": "v4_real_7abc36182b313c505fcdb6e1bd124ced",
+      "home_team": "Crystal Palace",
+      "away_team": "Fulham",
+      "league": "soccer_epl",
+      "date": "2026-01-01T17:30:00Z",
+      "real_odds": {
+        "1x2": {
+          "home": 2.2,
+          "away": 3.4,
+          "draw": 3.35
+        },
+        "spread": {},
+        "total": {}
+      }
+    },
+    "quant_analysis": {
+      "match_analysis": {
+        "causal_chain": "Home star striker out reduces attacking threat, Fulham solid defense exploits this weakness, leading to low-scoring draw or away advantage.",
+        "divergence_index": 0.42,
+        "market_chaos": "LOW",
+        "meta_weighting": "Enabled (Calibration-aware)",
+        "alpha_rating": "A",
+        "black_swan_option": null
+      },
+      "recommendations": {
+        "1x2": {
+          "selection": "Draw",
+          "probability": 0.3659,
+          "market_odds": 3.35,
+          "confidence": 8,
+          "value_gap": "3.6%"
+        },
+        "asian_handicap": {
+          "selection": "Fulham +0.25",
+          "probability": 0.5468,
+          "market_odds": 1.95,
+          "value_gap": "4.7%"
+        },
+        "over_under": {
+          "selection": "Under 2.5",
+          "probability": 0.5566,
+          "market_odds": 1.85,
+          "value_gap": "5.7%"
+        }
+      },
+      "portfolio_strategy": {
+        "diamond_pick": false,
+        "kelly_signal": "1.0"
+      }
+    },
+    "models": {
+      "DeepSeek V3": {
+        "match_analysis": {
+          "causal_chain": "Home star striker out reduces attacking threat, Fulham solid defense exploits this weakness, leading to low-scoring draw or away advantage.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Fulham defensive strength neutralizes Palace's unsustainable xG overperformance, creating tactical mismatch.",
+          "weather_referee_impact": "No significant impact reported; standard conditions expected."
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Draw",
+            "fair_odds": 3.1,
+            "market_odds": 3.35,
+            "probability": 0.32,
+            "value_gap": "8.1%",
+            "confidence": 7,
+            "risk_note": "Palace's overperformance may regress sharply without key striker, but home advantage could still influence."
+          },
+          "asian_handicap": {
+            "selection": "Fulham +0.25",
+            "fair_odds": 1.85,
+            "market_odds": 1.95,
+            "probability": 0.54,
+            "value_gap": "5.4%",
+            "confidence": 6,
+            "risk_note": "Handicap market not fully specified; based on implied probabilities from 1x2 odds, Fulham has edge but limited data."
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "fair_odds": 1.75,
+            "market_odds": 1.85,
+            "probability": 0.57,
+            "value_gap": "5.7%",
+            "confidence": 7,
+            "risk_note": "Striker absence and Fulham's defense likely suppress scoring, but Palace's unsustainable xG adds volatility."
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Draw",
+          "win_rate": 0.32,
+          "reason": "Strongest value gap (8.1%) with high confidence due to causal chain of striker absence and defensive mismatch."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.5",
+          "hedging_suggestion": "Consider small hedge on Fulham win if odds drift above 3.5, given defensive advantage."
+        },
+        "risk_disclosure": {
+          "data_trap": "Palace's 30% xG overperformance is unsustainable but may not fully regress in single match, creating false signal.",
+          "tactical_variable": "Fulham's defensive solidity could break if Palace adapts tactics without striker.",
+          "contingency": "If Palace scores early, shift to over 2.5 as momentum may override defensive plans."
+        }
+      },
+      "GPT-4o": {
+        "match_analysis": {
+          "causal_chain": "Crystal Palace overperforming xG -> Home Star Striker Out -> Fulham defensive advantage",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Fulham edge due to Crystal Palace's unsustainable xG overperformance",
+          "weather_referee_impact": "No significant impact expected from weather or referee"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "fair_odds": 3.0,
+            "market_odds": 3.4,
+            "probability": 0.35,
+            "value_gap": "5%",
+            "confidence": 7,
+            "risk_note": "Palace's xG overperformance adjustment and key player absence are critical."
+          },
+          "asian_handicap": {
+            "selection": "Fulham +0.5",
+            "fair_odds": 1.75,
+            "market_odds": 1.8,
+            "probability": 0.58,
+            "value_gap": "3%",
+            "confidence": 6,
+            "risk_note": "Absence of home star striker could lessen Palace's attacking threat."
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "fair_odds": 1.8,
+            "market_odds": 1.85,
+            "probability": 0.55,
+            "value_gap": "2%",
+            "confidence": 6,
+            "risk_note": "Fulham's strong defense and striker absence likely reduces goals."
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Away",
+          "win_rate": 0.35,
+          "reason": "Best value due to Crystal Palace's xG overperformance correction and striker injury."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.0",
+          "hedging_suggestion": "Consider covering Draw as hedge via Draw No Bet market."
+        },
+        "risk_disclosure": {
+          "data_trap": "Potential overreaction to Crystal Palace's temporary xG overperformance",
+          "tactical_variable": "Fulham's defensive setup may counter Crystal Palace's attacker dynamics",
+          "contingency": "Monitor any late changes to Crystal Palace's lineup strategy"
+        }
+      },
+      "Claude 3.5 Sonnet": {
+        "match_analysis": {
+          "causal_chain": "Simulated analysis for Claude 3.5 Sonnet.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Team A slight edge.",
+          "weather_referee_impact": "None"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Draw",
+            "probability": 0.33,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 3.0
+          },
+          "asian_handicap": {
+            "selection": "Home -0.5",
+            "probability": 0.5,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 1.9
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "probability": 0.5,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 1.9
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Draw",
+          "win_rate": 0.33,
+          "reason": "Simulated"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.0",
+          "hedging_suggestion": ""
+        },
+        "risk_disclosure": {
+          "data_trap": "None",
+          "tactical_variable": "None",
+          "contingency": "None"
+        }
+      },
+      "Gemini 1.5 Pro": {
+        "match_analysis": {
+          "causal_chain": "Crystal Palace's overperformance in xG is unsustainable. Key striker injury reduces offensive threat. Fulham's solid defense will likely contain Palace. Odds are skewed towards Palace, creating value on Fulham.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Fulham Slight Advantage due to Injury and xG",
+          "weather_referee_impact": "Minimal impact expected"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "fair_odds": 2.8,
+            "market_odds": 3.4,
+            "probability": 0.357,
+            "value_gap": "17.6%",
+            "confidence": 7,
+            "risk_note": "Palace home advantage and variance in single game result"
+          },
+          "asian_handicap": {
+            "selection": "Away +0.5",
+            "fair_odds": 1.85,
+            "market_odds": 1.75,
+            "probability": 0.54,
+            "value_gap": "5.7%",
+            "confidence": 6,
+            "risk_note": "Home side motivated to perform well."
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "fair_odds": 1.7,
+            "market_odds": 1.8,
+            "probability": 0.588,
+            "value_gap": "5.6%",
+            "confidence": 5,
+            "risk_note": "Fulham's defensive strength and Palace's weakened attack."
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Away",
+          "win_rate": 0.357,
+          "reason": "Highest value gap and Fulham likely to exploit Palace's overperformance and striker absence."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.0",
+          "hedging_suggestion": "Consider hedging if Palace scores early."
+        },
+        "risk_disclosure": {
+          "data_trap": "Palace recent results could mislead due to xG overperformance.",
+          "tactical_variable": "Unexpected tactical changes from either manager.",
+          "contingency": "Early red card drastically altering match dynamics."
+        }
+      },
+      "Qwen 3 Max": {
+        "match_analysis": {
+          "causal_chain": "Crystal Palace star striker out -> Offensive efficiency drops sharply; Fulham strong defense exploits overperforming xG -> Reversion likely. Home attack regresses to mean.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Away defensive stability vs Home unsustainable offense",
+          "weather_referee_impact": "No adverse weather or referee bias detected; neutral conditions"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Draw",
+            "fair_odds": 3.1,
+            "market_odds": 3.35,
+            "probability": 0.3226,
+            "value_gap": "4.9%",
+            "confidence": 7,
+            "risk_note": "High xG reversion risk for Palace, but Fulham lack killer instinct"
+          },
+          "asian_handicap": {
+            "selection": "Fulham +0.25",
+            "fair_odds": 1.85,
+            "market_odds": 1.92,
+            "probability": 0.5405,
+            "value_gap": "3.8%",
+            "confidence": 6,
+            "risk_note": "Soft line due to public bias on Palace; injury not fully priced"
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "fair_odds": 2.1,
+            "market_odds": 2.05,
+            "probability": 0.4762,
+            "value_gap": "-2.4%",
+            "confidence": 5,
+            "risk_note": "No data on over/under market depth; slight edge to under via tactical grind"
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Draw",
+          "win_rate": 0.32,
+          "reason": "Strong causal chain: Palace's inflated form meets Fulham's defensive discipline; injury removes key offensive catalyst"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.2",
+          "hedging_suggestion": "If Palace opens favorite in-play, hedge Draw via exchange"
+        },
+        "risk_disclosure": {
+          "data_trap": "xG overperformance may persist short-term due to randomness",
+          "tactical_variable": "Palace may shift to counter-attacking setup with backup striker",
+          "contingency": "Monitor pre-game lineup for surprise midfield aggression shift"
+        }
+      },
+      "ChatGPT-4.5 Sonnet": {
+        "match_analysis": {
+          "causal_chain": "Home Star Striker Out -> Reduced Scoring -> Under 2.5 Viable",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Home Strong Advantage due to xG trend",
+          "weather_referee_impact": "Minimal environment impact expected"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 2.0,
+            "market_odds": 2.2,
+            "probability": 0.5,
+            "value_gap": "7.3%",
+            "confidence": 6,
+            "risk_note": "Overperformance in xG might correct"
+          },
+          "asian_handicap": {
+            "selection": "Away +0.5",
+            "fair_odds": 1.8,
+            "market_odds": 1.75,
+            "probability": 0.55,
+            "value_gap": "2.8%",
+            "confidence": 5,
+            "risk_note": "Fulham's defense to exploit weakened attack"
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "fair_odds": 1.9,
+            "market_odds": 2.0,
+            "probability": 0.53,
+            "value_gap": "4.4%",
+            "confidence": 7,
+            "risk_note": "Sustained solid defense from Fulham expected"
+          }
+        },
+        "best_bet": {
+          "market": "over_under",
+          "selection": "Under 2.5",
+          "win_rate": 0.53,
+          "reason": "Weakened home attack and solid Fulham defense suggest fewer goals"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": true,
+          "banker_reason": "Solid empirical backing for under given star striker absence and defensive trends",
+          "kelly_signal": "3.5",
+          "hedging_suggestion": "Consider small hedge on Fulham clean sheet"
+        },
+        "risk_disclosure": {
+          "data_trap": "xG overperformance potential correction",
+          "tactical_variable": "Fulham's defensive strategies may lead to draw",
+          "contingency": "Reassess if home striker miraculous recovery"
+        }
+      },
+      "Consensus": {
+        "match_analysis": {
+          "causal_chain": "Home star striker out reduces attacking threat, Fulham solid defense exploits this weakness, leading to low-scoring draw or away advantage.",
+          "divergence_index": 0.42,
+          "market_chaos": "LOW",
+          "meta_weighting": "Enabled (Calibration-aware)",
+          "alpha_rating": "A",
+          "black_swan_option": null
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Draw",
+            "probability": 0.3659,
+            "market_odds": 3.35,
+            "confidence": 8,
+            "value_gap": "3.6%"
+          },
+          "asian_handicap": {
+            "selection": "Fulham +0.25",
+            "probability": 0.5468,
+            "market_odds": 1.95,
+            "value_gap": "4.7%"
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "probability": 0.5566,
+            "market_odds": 1.85,
+            "value_gap": "5.7%"
+          }
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "kelly_signal": "1.0"
+        }
+      }
+    }
+  },
+  {
+    "id": "v4_real_c1cef082530d156e4cdd5584f8cc5f15",
+    "match_info": {
+      "id": "v4_real_c1cef082530d156e4cdd5584f8cc5f15",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Getafe",
+      "league": "soccer_spain_la_liga",
+      "date": "2026-01-02T20:00:00Z",
+      "real_odds": {
+        "1x2": {
+          "away": 3.9,
+          "home": 2.15,
+          "draw": 2.9
+        },
+        "spread": {},
+        "total": {}
+      }
+    },
+    "quant_analysis": {
+      "match_analysis": {
+        "causal_chain": "Rayo Vallecano's rising xG trend (+0.4/game) exploits Getafe's defensive leaks, creating a home advantage in chance creation.",
+        "divergence_index": 0.47,
+        "market_chaos": "LOW",
+        "meta_weighting": "Enabled (Calibration-aware)",
+        "alpha_rating": "AA",
+        "black_swan_option": null
+      },
+      "recommendations": {
+        "1x2": {
+          "selection": "Home",
+          "probability": 0.4871,
+          "market_odds": 2.15,
+          "confidence": 8,
+          "value_gap": "15.7%"
+        },
+        "asian_handicap": {
+          "selection": "Home -0.5",
+          "probability": 0.527,
+          "market_odds": 2.1,
+          "value_gap": "2.7%"
+        },
+        "over_under": {
+          "selection": "Over 2.5",
+          "probability": 0.5007,
+          "market_odds": 2.2,
+          "value_gap": "0.1%"
+        }
+      },
+      "portfolio_strategy": {
+        "diamond_pick": false,
+        "kelly_signal": "1.0"
+      }
+    },
+    "models": {
+      "DeepSeek V3": {
+        "match_analysis": {
+          "causal_chain": "Rayo Vallecano's rising xG trend (+0.4/game) exploits Getafe's defensive leaks, creating a home advantage in chance creation.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Home Strong Advantage due to xG trend and opponent's defensive vulnerabilities",
+          "weather_referee_impact": "No significant weather or referee data provided; assume neutral conditions"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 1.85,
+            "market_odds": 2.15,
+            "probability": 0.54,
+            "value_gap": "16.2%",
+            "confidence": 8,
+            "risk_note": "Market odds imply 46.5% probability, undervaluing Rayo's xG advantage"
+          },
+          "asian_handicap": {
+            "selection": "Home -0.5",
+            "fair_odds": 1.9,
+            "market_odds": 2.1,
+            "probability": 0.53,
+            "value_gap": "10.5%",
+            "confidence": 7,
+            "risk_note": "Handicap data incomplete; estimate based on 1x2 odds and xG trend"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 2.0,
+            "market_odds": 2.2,
+            "probability": 0.5,
+            "value_gap": "10.0%",
+            "confidence": 6,
+            "risk_note": "Limited data; relies on Rayo's offensive trend and Getafe's leaks"
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Home",
+          "win_rate": 0.54,
+          "reason": "Strongest causal chain with Rayo's rising xG trend directly exploiting Getafe's defensive weaknesses, offering highest value gap"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": true,
+          "banker_reason": "Confidence > 8 and Value Gap > 5% in 1x2 market, supported by clear xG trend and opponent vulnerabilities",
+          "kelly_signal": "2.5",
+          "hedging_suggestion": "Consider small hedge on Draw if Getafe's defense tightens unexpectedly"
+        },
+        "risk_disclosure": {
+          "data_trap": "Incomplete handicap and over/under odds limit full market analysis",
+          "tactical_variable": "Getafe's defensive adjustments could neutralize Rayo's xG advantage",
+          "contingency": "If Getafe scores early, shift probability toward Draw or Away"
+        }
+      },
+      "GPT-4o": {
+        "match_analysis": {
+          "causal_chain": "Rayo xG increase -> More scoring opportunities -> Getafe defense struggles",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Home Strong Advantage due to xG trend",
+          "weather_referee_impact": "No significant impacts"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 2.0,
+            "market_odds": 2.15,
+            "probability": 0.5,
+            "value_gap": "6.51%",
+            "confidence": 7,
+            "risk_note": "Rayo's upward xG trend against weak Getafe defense"
+          },
+          "asian_handicap": {
+            "selection": "Home 0",
+            "fair_odds": 1.8,
+            "market_odds": 1.95,
+            "probability": 0.56,
+            "value_gap": "5.90%",
+            "confidence": 6,
+            "risk_note": "Minimal risk due to refund on draw, favorable xG trend"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 2.1,
+            "market_odds": 2.0,
+            "probability": 0.48,
+            "value_gap": "-4.76%",
+            "confidence": 4,
+            "risk_note": "Limited confidence due to market odds offering less value"
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Home",
+          "win_rate": 0.5,
+          "reason": "Strong home advantage with favorable xG trend and defense mismatch"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "2.0",
+          "hedging_suggestion": "Consider partial hedge on Draw for 1x2 market"
+        },
+        "risk_disclosure": {
+          "data_trap": "None detected",
+          "tactical_variable": "Rayo's counterattack against deep block",
+          "contingency": "Adjust for line movement near kick-off"
+        }
+      },
+      "Claude 3.5 Sonnet": {
+        "match_analysis": {
+          "causal_chain": "Simulated analysis for Claude 3.5 Sonnet.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Team A slight edge.",
+          "weather_referee_impact": "None"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Draw",
+            "probability": 0.33,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 3.0
+          },
+          "asian_handicap": {
+            "selection": "Home -0.5",
+            "probability": 0.5,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 1.9
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "probability": 0.5,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 1.9
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Draw",
+          "win_rate": 0.33,
+          "reason": "Simulated"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.0",
+          "hedging_suggestion": ""
+        },
+        "risk_disclosure": {
+          "data_trap": "None",
+          "tactical_variable": "None",
+          "contingency": "None"
+        }
+      },
+      "Gemini 1.5 Pro": {
+        "match_analysis": {
+          "causal_chain": "Rayo's rising xG and Getafe's defensive vulnerabilities suggest home advantage. Low block vs high press.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Home Strong Advantage due to xG trend",
+          "weather_referee_impact": "Normal conditions expected, referee with a balanced card tendency."
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 2.05,
+            "market_odds": 2.15,
+            "probability": 0.487,
+            "value_gap": "4.8%",
+            "confidence": 6,
+            "risk_note": "Getafe's potential for tactical adjustments could neutralize Rayo's attack."
+          },
+          "asian_handicap": {
+            "selection": "Home -0.0",
+            "fair_odds": 1.88,
+            "market_odds": 1.83,
+            "probability": 0.532,
+            "value_gap": "2.7%",
+            "confidence": 4,
+            "risk_note": "Low confidence due to missing market data."
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "fair_odds": 1.75,
+            "market_odds": 1.85,
+            "probability": 0.571,
+            "value_gap": "5.4%",
+            "confidence": 7,
+            "risk_note": "Getafe's defensive focus may limit scoring opportunities despite Rayo's xG."
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Home",
+          "win_rate": 0.487,
+          "reason": "Slight edge on Rayo's win probability with reasonable odds."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.2",
+          "hedging_suggestion": "Consider draw no bet for risk mitigation."
+        },
+        "risk_disclosure": {
+          "data_trap": "Rayo's xG could be inflated due to specific opponent weaknesses.",
+          "tactical_variable": "Getafe's counter-attacking threat if Rayo presses too high.",
+          "contingency": "Early Getafe goal could force Rayo to change tactics, impacting xG."
+        }
+      },
+      "Qwen 3 Max": {
+        "match_analysis": {
+          "causal_chain": "Rayo's rising xG trend (+0.4/game) indicates improving attack; Getafe's defensive leaks suggest inability to contain motivated home side in high-pressure transition zones.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Home Strong Advantage due to xG trend and offensive momentum",
+          "weather_referee_impact": "No adverse weather or referee bias reported; neutral conditions favor tactical execution"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 1.87,
+            "market_odds": 2.15,
+            "probability": 0.535,
+            "value_gap": "13.2%",
+            "confidence": 9,
+            "risk_note": "Getafe may sit deep but lack of counters reduces upset risk"
+          },
+          "asian_handicap": {
+            "selection": "Home -0.25",
+            "fair_odds": 1.95,
+            "market_odds": 2.05,
+            "probability": 0.513,
+            "value_gap": "5.1%",
+            "confidence": 7,
+            "risk_note": "Split stake liability if draw; depends on early goal conversion"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 2.2,
+            "market_odds": 2.3,
+            "probability": 0.455,
+            "value_gap": "4.3%",
+            "confidence": 6,
+            "risk_note": "Conditional on Rayo converting pressure; moderate pace game likely"
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Home",
+          "win_rate": 0.535,
+          "reason": "Strong causal link between Rayo\u2019s rising xG and Getafe\u2019s defensive fragility, supported by significant value gap and high-confidence model alignment"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": true,
+          "banker_reason": "High Value Gap (13.2%) and robust causal chain with strong data consistency; market underpricing home win",
+          "kelly_signal": "2.5",
+          "hedging_suggestion": "Consider small hedge on Draw via exchange if odds rise above 3.2 pre-match"
+        },
+        "risk_disclosure": {
+          "data_trap": "xG trend may overstate improvement if facing weak prior opponents",
+          "tactical_variable": "Getafe could deploy ultra-low block, slowing tempo and reducing total events",
+          "contingency": "Monitor lineup confirmation for Rayo strikers; downgrade if starting xG contributors are benched"
+        }
+      },
+      "ChatGPT-4.5 Sonnet": {
+        "match_analysis": {
+          "causal_chain": "Rayo xG up, Getafe defense weak -> Rayo attacking advantage",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Home Strong Advantage due to xG trend",
+          "weather_referee_impact": "No significant impact detected"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 2.02,
+            "market_odds": 2.15,
+            "probability": 0.495,
+            "value_gap": "4.5%",
+            "confidence": 7,
+            "risk_note": "Minor mitigation required if Getafe's defensive form improves"
+          },
+          "asian_handicap": {
+            "selection": "Home -0.5",
+            "fair_odds": 2.08,
+            "market_odds": 2.15,
+            "probability": 0.48,
+            "value_gap": "3.8%",
+            "confidence": 6,
+            "risk_note": "Watch for late Getafe defensive lineup changes"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 2.35,
+            "market_odds": 2.3,
+            "probability": 0.425,
+            "value_gap": "1.7%",
+            "confidence": 5,
+            "risk_note": "Weather conditions might affect game pace"
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Home",
+          "win_rate": 0.495,
+          "reason": "Rayo Vallecano's upward xG trend and Getafe's defensive issues provide favorable conditions"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.8",
+          "hedging_suggestion": "Consider partial hedge on Draw due to moderate confidence rating"
+        },
+        "risk_disclosure": {
+          "data_trap": "Rayo's consistent xG not yet reflected in past scorelines",
+          "tactical_variable": "Getafe may alter defensive strategy unexpectedly",
+          "contingency": "Re-evaluate if Getafe makes noteworthy defensive shifts pre-match"
+        }
+      },
+      "Consensus": {
+        "match_analysis": {
+          "causal_chain": "Rayo Vallecano's rising xG trend (+0.4/game) exploits Getafe's defensive leaks, creating a home advantage in chance creation.",
+          "divergence_index": 0.47,
+          "market_chaos": "LOW",
+          "meta_weighting": "Enabled (Calibration-aware)",
+          "alpha_rating": "AA",
+          "black_swan_option": null
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "probability": 0.4871,
+            "market_odds": 2.15,
+            "confidence": 8,
+            "value_gap": "15.7%"
+          },
+          "asian_handicap": {
+            "selection": "Home -0.5",
+            "probability": 0.527,
+            "market_odds": 2.1,
+            "value_gap": "2.7%"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "probability": 0.5007,
+            "market_odds": 2.2,
+            "value_gap": "0.1%"
+          }
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "kelly_signal": "1.0"
+        }
+      }
+    }
+  },
+  {
+    "id": "v4_real_d4675c9f1cfcd20cf9b1d9365d76498f",
+    "match_info": {
+      "id": "v4_real_d4675c9f1cfcd20cf9b1d9365d76498f",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "Borussia Dortmund",
+      "league": "soccer_germany_bundesliga",
+      "date": "2026-01-09T19:30:00Z",
+      "real_odds": {
+        "1x2": {
+          "away": 2.05,
+          "home": 3.25,
+          "draw": 3.75
+        },
+        "spread": {},
+        "total": {}
+      }
+    },
+    "quant_analysis": {
+      "match_analysis": {
+        "causal_chain": "Home star striker out reduces attacking efficiency, increasing Dortmund's defensive stability and counter-attack opportunities.",
+        "divergence_index": 0.46,
+        "market_chaos": "LOW",
+        "meta_weighting": "Enabled (Calibration-aware)",
+        "alpha_rating": "A",
+        "black_swan_option": null
+      },
+      "recommendations": {
+        "1x2": {
+          "selection": "Away",
+          "probability": 0.4859,
+          "market_odds": 2.05,
+          "confidence": 8,
+          "value_gap": "15.6%"
+        },
+        "asian_handicap": {
+          "selection": "Away -0.5",
+          "probability": 0.5,
+          "market_odds": 2.1,
+          "value_gap": "0.0%"
+        },
+        "over_under": {
+          "selection": "Over 2.5",
+          "probability": 0.5352,
+          "market_odds": 1.95,
+          "value_gap": "3.5%"
+        }
+      },
+      "portfolio_strategy": {
+        "diamond_pick": false,
+        "kelly_signal": "1.0"
+      }
+    },
+    "models": {
+      "DeepSeek V3": {
+        "match_analysis": {
+          "causal_chain": "Home star striker out reduces attacking efficiency, increasing Dortmund's defensive stability and counter-attack opportunities.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Dortmund advantage due to Frankfurt's key injury and neutral xG context favoring away side.",
+          "weather_referee_impact": "No significant weather or referee data provided; assume neutral conditions."
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "fair_odds": 1.85,
+            "market_odds": 2.05,
+            "probability": 0.54,
+            "value_gap": "10.8%",
+            "confidence": 7,
+            "risk_note": "High variance in xG could lead to unexpected outcomes despite injury advantage."
+          },
+          "asian_handicap": {
+            "selection": "Away -0.5",
+            "fair_odds": 1.9,
+            "market_odds": 2.1,
+            "probability": 0.53,
+            "value_gap": "10.5%",
+            "confidence": 6,
+            "risk_note": "Handicap market not fully specified; based on implied odds from 1x2, moderate confidence."
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 1.8,
+            "market_odds": 1.95,
+            "probability": 0.56,
+            "value_gap": "8.3%",
+            "confidence": 5,
+            "risk_note": "Neutral xG with high variance supports over, but injury may reduce scoring efficiency."
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Away",
+          "win_rate": 0.54,
+          "reason": "Dortmund's advantage from Frankfurt's key striker injury provides the most consistent data-driven edge."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.5",
+          "hedging_suggestion": "Consider small hedge on Draw if odds drift above 4.00 to mitigate high variance risk."
+        },
+        "risk_disclosure": {
+          "data_trap": "Limited real-time market data for handicap and over/under; reliance on implied odds may introduce bias.",
+          "tactical_variable": "Frankfurt's tactical adjustment to striker absence could neutralize Dortmund's advantage.",
+          "contingency": "If Dortmund concedes early, switch to live betting on Over 2.5 as game opens up."
+        }
+      },
+      "GPT-4o": {
+        "match_analysis": {
+          "causal_chain": "Home Star Striker Out -> Offensive Weakness -> Dortmund Defensive Advantage",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Dortmund Slight Edge Due to Key Injury",
+          "weather_referee_impact": "Minimal effect as conditions are mild and referee averages 3.2 cards per match"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "fair_odds": 1.95,
+            "market_odds": 2.05,
+            "probability": 0.515,
+            "value_gap": "1.5%",
+            "confidence": 6,
+            "risk_note": "Moderate confidence due to high xG variance"
+          },
+          "asian_handicap": {
+            "selection": "Away -0.25",
+            "fair_odds": 2.1,
+            "market_odds": 2.05,
+            "probability": 0.49,
+            "value_gap": "-1.0%",
+            "confidence": 5,
+            "risk_note": "Lack of clear value due to market alignment"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 1.8,
+            "market_odds": "N/A",
+            "probability": 0.55,
+            "value_gap": "N/A",
+            "confidence": 7,
+            "risk_note": "High variance in xG might lead to goals; assess market for pricing"
+          }
+        },
+        "best_bet": {
+          "market": "over_under",
+          "selection": "Over 2.5",
+          "win_rate": 0.55,
+          "reason": "High variance xG suggests goals; striker absence might open up play."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.5",
+          "hedging_suggestion": "Consider live betting against draw if Dortmund takes early lead."
+        },
+        "risk_disclosure": {
+          "data_trap": "Public betting nearing 65% for Dortmund, monitor for odds drift.",
+          "tactical_variable": "Home striker absence might alter game dynamics significantly.",
+          "contingency": "If Frankfurt adjusts tactically to compensate for striker, re-evaluate probabilities."
+        }
+      },
+      "Claude 3.5 Sonnet": {
+        "match_analysis": {
+          "causal_chain": "Simulated analysis for Claude 3.5 Sonnet.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Team A slight edge.",
+          "weather_referee_impact": "None"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Draw",
+            "probability": 0.33,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 3.0
+          },
+          "asian_handicap": {
+            "selection": "Home -0.5",
+            "probability": 0.5,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 1.9
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "probability": 0.5,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 1.9
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Draw",
+          "win_rate": 0.33,
+          "reason": "Simulated"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.0",
+          "hedging_suggestion": ""
+        },
+        "risk_disclosure": {
+          "data_trap": "None",
+          "tactical_variable": "None",
+          "contingency": "None"
+        }
+      },
+      "Gemini 1.5 Pro": {
+        "match_analysis": {
+          "causal_chain": "Dortmund favored due to Frankfurt's key striker injury. Neutral xG suggests Dortmund's attack can exploit Frankfurt's weakened defense.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Slight Away Advantage due to injury impact",
+          "weather_referee_impact": "Neutral impact expected"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "fair_odds": 2.2,
+            "market_odds": 2.05,
+            "probability": 0.45,
+            "value_gap": "-2.27 %",
+            "confidence": 3,
+            "risk_note": "Injury impact overestimated; xG variance high."
+          },
+          "asian_handicap": {
+            "selection": "Away -0.5",
+            "fair_odds": 2.4,
+            "market_odds": null,
+            "probability": 0.42,
+            "value_gap": "N/A",
+            "confidence": 3,
+            "risk_note": "Handicap not available."
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "fair_odds": 2.1,
+            "market_odds": null,
+            "probability": 0.48,
+            "value_gap": "N/A",
+            "confidence": 4,
+            "risk_note": "Neutral xG suggests potential for low-scoring game. Market data missing."
+          }
+        },
+        "best_bet": {
+          "market": "over_under",
+          "selection": "Under 2.5",
+          "win_rate": 0.48,
+          "reason": "Slight edge due to balanced xG suggesting a tactical, low-scoring affair, but missing market data reduces conviction."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "N/A",
+          "hedging_suggestion": "Consider hedging with a draw if game is level after 70 minutes."
+        },
+        "risk_disclosure": {
+          "data_trap": "Reliance on injury impact may be overstated.",
+          "tactical_variable": "Dortmund's counter-attacking strategy effectiveness.",
+          "contingency": "Early goal changes match dynamics; adjust position."
+        }
+      },
+      "Qwen 3 Max": {
+        "match_analysis": {
+          "causal_chain": "Frankfurt's star striker absence reduces goal conversion efficiency; Dortmund's superior squad depth and xG sustainability under high variance increases away win probability despite neutral xG trend.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Away Strong Advantage due to offensive resilience and opponent key absence",
+          "weather_referee_impact": "No adverse weather or referee bias reported; neutral environmental conditions"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "fair_odds": 1.92,
+            "market_odds": 2.05,
+            "probability": 0.5208,
+            "value_gap": "6.7%",
+            "confidence": 8,
+            "risk_note": "High-variance match but Dortmund's depth offsets home-side unpredictability"
+          },
+          "asian_handicap": {
+            "selection": "Away -0.25",
+            "fair_odds": 1.95,
+            "market_odds": 2.02,
+            "probability": 0.5128,
+            "value_gap": "5.4%",
+            "confidence": 7,
+            "risk_note": "Partial handicap exposes to draw; value exists but structural risk remains"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 2.1,
+            "market_odds": 2.3,
+            "probability": 0.4762,
+            "value_gap": "14.3%",
+            "confidence": 9,
+            "risk_note": "High-variance xG context and both teams' attacking intent support over expectation"
+          }
+        },
+        "best_bet": {
+          "market": "over_under",
+          "selection": "Over 2.5",
+          "win_rate": 0.476,
+          "reason": "Strong causal link between high-variance xG, lack of defensive dominance, and elevated scoring volatility; AI fair probability exceeds market implied by wide margin"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": true,
+          "banker_reason": "Over 2.5 offers largest value gap (14.3%) with high-confidence causal drivers: neutral xG + missing striker increasing desperation play + no tactical suppression of volume",
+          "kelly_signal": "3.1",
+          "hedging_suggestion": "Partially hedge with small exposure on 1x2 Away if odds remain above 2.00 pre-kickoff"
+        },
+        "risk_disclosure": {
+          "data_trap": "Neutral xG may mask second-half tactical conservatism",
+          "tactical_variable": "Frankfurt may adopt low-block without striker, suppressing shot volume",
+          "contingency": "If lineups show double pivot defensive setup, reduce Over exposure"
+        }
+      },
+      "ChatGPT-4.5 Sonnet": {
+        "match_analysis": {
+          "causal_chain": "Home Star Striker Out -> Attacking Threat Reduced -> Dortmund Defensive Advantage",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Even match-up with slight edge to Dortmund due to injury",
+          "weather_referee_impact": "Neutral impact, typical conditions"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "fair_odds": 2.0,
+            "market_odds": 2.05,
+            "probability": 0.51,
+            "value_gap": "1%",
+            "confidence": 6,
+            "risk_note": "Dortmund slightly favored, but market reflects fair value"
+          },
+          "asian_handicap": {
+            "selection": "Away -0.5",
+            "fair_odds": 2.1,
+            "market_odds": 2.05,
+            "probability": 0.5,
+            "value_gap": "-2%",
+            "confidence": 5,
+            "risk_note": "Expected close game; no clear handicap value"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 1.9,
+            "market_odds": 1.95,
+            "probability": 0.53,
+            "value_gap": "-2%",
+            "confidence": 5,
+            "risk_note": "High variance; goals expected from both sides"
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Away",
+          "win_rate": 0.51,
+          "reason": "Home team weakened offensively; Dortmund stable performance"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "0.5",
+          "hedging_suggestion": "Hedge small on Home Draw No Bet at positive odds due to variance"
+        },
+        "risk_disclosure": {
+          "data_trap": "Minimal market reaction to home star striker absence",
+          "tactical_variable": "Impact of missing striker on home team's counter-attack",
+          "contingency": "Monitor Dortmund's defensive performance early in the match"
+        }
+      },
+      "Consensus": {
+        "match_analysis": {
+          "causal_chain": "Home star striker out reduces attacking efficiency, increasing Dortmund's defensive stability and counter-attack opportunities.",
+          "divergence_index": 0.46,
+          "market_chaos": "LOW",
+          "meta_weighting": "Enabled (Calibration-aware)",
+          "alpha_rating": "A",
+          "black_swan_option": null
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "probability": 0.4859,
+            "market_odds": 2.05,
+            "confidence": 8,
+            "value_gap": "15.6%"
+          },
+          "asian_handicap": {
+            "selection": "Away -0.5",
+            "probability": 0.5,
+            "market_odds": 2.1,
+            "value_gap": "0.0%"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "probability": 0.5352,
+            "market_odds": 1.95,
+            "value_gap": "3.5%"
+          }
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "kelly_signal": "1.0"
+        }
+      }
+    }
+  },
+  {
+    "id": "v4_real_c4a6fcc303c95fbd25352b5df36a283a",
+    "match_info": {
+      "id": "v4_real_c4a6fcc303c95fbd25352b5df36a283a",
+      "home_team": "Cagliari",
+      "away_team": "AC Milan",
+      "league": "soccer_italy_serie_a",
+      "date": "2026-01-02T19:45:00Z",
+      "real_odds": {
+        "1x2": {
+          "away": 1.53,
+          "home": 5.5,
+          "draw": 4.0
+        },
+        "spread": {},
+        "total": {}
+      }
+    },
+    "quant_analysis": {
+      "match_analysis": {
+        "causal_chain": "Cagliari's star striker out reduces goal threat, while AC Milan's defensive leaks persist, creating a mismatch favoring Milan's attack.",
+        "divergence_index": 0.92,
+        "market_chaos": "LOW",
+        "meta_weighting": "Enabled (Calibration-aware)",
+        "alpha_rating": "A",
+        "black_swan_option": null
+      },
+      "recommendations": {
+        "1x2": {
+          "selection": "Away",
+          "probability": 0.5559,
+          "market_odds": 1.53,
+          "confidence": 8,
+          "value_gap": "22.6%"
+        },
+        "asian_handicap": {
+          "selection": "Away -1.0",
+          "probability": 0.5265,
+          "market_odds": 2.05,
+          "value_gap": "2.7%"
+        },
+        "over_under": {
+          "selection": "Over 2.5",
+          "probability": 0.53,
+          "market_odds": 1.95,
+          "value_gap": "3.0%"
+        }
+      },
+      "portfolio_strategy": {
+        "diamond_pick": false,
+        "kelly_signal": "1.0"
+      }
+    },
+    "models": {
+      "DeepSeek V3": {
+        "match_analysis": {
+          "causal_chain": "Cagliari's star striker out reduces goal threat, while AC Milan's defensive leaks persist, creating a mismatch favoring Milan's attack.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Away Strong Advantage due to Milan's superior quality despite defensive issues, compounded by Cagliari's key absence.",
+          "weather_referee_impact": "No significant weather or referee data provided; assume neutral conditions."
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "fair_odds": 1.45,
+            "market_odds": 1.53,
+            "probability": 0.69,
+            "value_gap": "5.5%",
+            "confidence": 7,
+            "risk_note": "Cagliari's improving xG could exploit Milan's defensive leaks, but key striker absence limits threat."
+          },
+          "asian_handicap": {
+            "selection": "Away -1.0",
+            "fair_odds": 1.95,
+            "market_odds": 2.05,
+            "probability": 0.51,
+            "value_gap": "2.5%",
+            "confidence": 5,
+            "risk_note": "Milan's defensive issues may prevent covering a -1.0 handicap despite overall advantage."
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 1.85,
+            "market_odds": 1.95,
+            "probability": 0.54,
+            "value_gap": "2.8%",
+            "confidence": 6,
+            "risk_note": "Milan's attack vs. Cagliari's defense and both teams' trends suggest goals, but striker absence could lower scoring."
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Away",
+          "win_rate": 0.69,
+          "reason": "AC Milan's superior quality and Cagliari's key striker absence create the strongest causal advantage, with a solid value gap and minimal luring signals."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.5",
+          "hedging_suggestion": "Consider a small hedge on Draw if Milan's defensive leaks worsen in-play."
+        },
+        "risk_disclosure": {
+          "data_trap": "Cagliari's rising xG trend may overstate their threat without the star striker, leading to underestimation of Milan's win probability.",
+          "tactical_variable": "Milan's defensive organization; if leaks are fixed, value in Away bet increases.",
+          "contingency": "If Cagliari scores early, switch to Over 2.5 as primary bet due to increased open play."
+        }
+      },
+      "GPT-4o": {
+        "match_analysis": {
+          "causal_chain": "Home Star Striker Out -> Cagliari Offense Weakened -> AC Milan Defensive Advantage",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Away team has advantage due to Cagliari's key injury",
+          "weather_referee_impact": "No significant impact"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "fair_odds": 1.48,
+            "market_odds": 1.53,
+            "probability": 0.68,
+            "value_gap": "3%",
+            "confidence": 6,
+            "risk_note": "Cagliari xG improvement vs AC Milan's defensive vulnerability"
+          },
+          "asian_handicap": {
+            "selection": "Away -1.0",
+            "fair_odds": 1.9,
+            "market_odds": 2.0,
+            "probability": 0.55,
+            "value_gap": "5%",
+            "confidence": 7,
+            "risk_note": "AC Milan should capitalize on Cagliari's weakened attack"
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "fair_odds": 1.85,
+            "market_odds": 1.75,
+            "probability": 0.54,
+            "value_gap": "-5%",
+            "confidence": 5,
+            "risk_note": "Cagliari's scoring threat reduced, but AC Milan's defense suspect"
+          }
+        },
+        "best_bet": {
+          "market": "asian_handicap",
+          "selection": "Away -1.0",
+          "win_rate": 0.55,
+          "reason": "Cagliari's key absence weakens their offense"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": true,
+          "banker_reason": "AC Milan should dominate given Cagliari's star striker absence",
+          "kelly_signal": "1.5",
+          "hedging_suggestion": "Consider hedging with Cagliari +1 for draw or close win scenarios"
+        },
+        "risk_disclosure": {
+          "data_trap": "Assumption of constant defensive improvement from AC Milan",
+          "tactical_variable": "AC Milan's strategy against a high xG trend",
+          "contingency": "Adjust for unexpected recovery in Cagliari's attack"
+        }
+      },
+      "Claude 3.5 Sonnet": {
+        "match_analysis": {
+          "causal_chain": "Simulated analysis for Claude 3.5 Sonnet.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Team A slight edge.",
+          "weather_referee_impact": "None"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Draw",
+            "probability": 0.33,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 3.0
+          },
+          "asian_handicap": {
+            "selection": "Home -0.5",
+            "probability": 0.5,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 1.9
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "probability": 0.5,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 1.9
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Draw",
+          "win_rate": 0.33,
+          "reason": "Simulated"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.0",
+          "hedging_suggestion": ""
+        },
+        "risk_disclosure": {
+          "data_trap": "None",
+          "tactical_variable": "None",
+          "contingency": "None"
+        }
+      },
+      "Gemini 1.5 Pro": {
+        "match_analysis": {
+          "causal_chain": "Cagliari's rising xG and AC Milan's leaky defense, compounded by Cagliari's key striker absence, shapes the game. Market odds suggest Milan dominance, but Cagliari's attacking trend presents a possible value gap.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Cagliari showing offensive improvement despite Milan's overall strength. Home advantage is diminished by the key striker's absence.",
+          "weather_referee_impact": "Standard conditions expected; referee tendencies neutral."
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Draw",
+            "fair_odds": 4.5,
+            "market_odds": 4.0,
+            "probability": 0.22,
+            "value_gap": "12.5%",
+            "confidence": 6,
+            "risk_note": "Milan's superior quality can overcome Cagliari's xG trend; key striker absence hurts home side's chances significantly."
+          },
+          "asian_handicap": {
+            "selection": "Away -1",
+            "fair_odds": 2.1,
+            "market_odds": 1.95,
+            "probability": 0.47,
+            "value_gap": "7.7%",
+            "confidence": 5,
+            "risk_note": "Milan likely to win, but covering -1 is riskier given Cagliari's improved attack and potential for a late goal."
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 1.8,
+            "market_odds": 1.75,
+            "probability": 0.55,
+            "value_gap": "2.9%",
+            "confidence": 4,
+            "risk_note": "Both teams can score, but the striker absence reduces the likelihood of a high-scoring game for Cagliari. xG needs to be considered."
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Draw",
+          "win_rate": 0.22,
+          "reason": "Value exists due to market underestimating Cagliari's attacking trend coupled with Milan's leaky defense, albeit marginally."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.2",
+          "hedging_suggestion": "Consider hedging on Away win if the score remains 0-0 after 60 minutes."
+        },
+        "risk_disclosure": {
+          "data_trap": "Relying solely on xG trends without considering key player absences.",
+          "tactical_variable": "Cagliari's tactical response to the striker's absence.",
+          "contingency": "Early Milan goal could disrupt Cagliari's attacking plans and negate xG trend."
+        }
+      },
+      "Qwen 3 Max": {
+        "match_analysis": {
+          "causal_chain": "Cagliari's rising xG trend (+0.4/game) vs AC Milan's defensive vulnerability creates offensive opportunity; however, absence of Home Star Striker weakens finish quality despite chances.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Away Favored but Defensive Leaks Exposed; Home Attack Trending Up Despite Key Absence",
+          "weather_referee_impact": "No adverse weather or referee bias reported; neutral environmental conditions"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Draw",
+            "fair_odds": 3.6,
+            "market_odds": 4.0,
+            "probability": 0.278,
+            "value_gap": "9.2%",
+            "confidence": 7,
+            "risk_note": "High risk due to striker absence, but tactical balance and Milan's drop-off in defense support draw probability"
+          },
+          "asian_handicap": {
+            "selection": "Home +0.5",
+            "fair_odds": 1.95,
+            "market_odds": 1.97,
+            "probability": 0.513,
+            "value_gap": "1.0%",
+            "confidence": 5,
+            "risk_note": "Minimal edge; used as hedge given Cagliari's improving xG and home resilience"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 2.1,
+            "market_odds": 2.05,
+            "probability": 0.476,
+            "value_gap": "-2.4%",
+            "confidence": 4,
+            "risk_note": "Slight negative value; avoid due to missing striker reducing conversion likelihood despite chances"
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Draw",
+          "win_rate": 0.278,
+          "reason": "Strong causal chain: Cagliari\u2019s improved attack meets Milan\u2019s defensive regression; market overvalues Milan's away strength"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.2",
+          "hedging_suggestion": "Use Draw as core value bet; hedge with small stake on Home +0.5 if entering live during first half scoreless"
+        },
+        "risk_disclosure": {
+          "data_trap": "xG trend may not convert without star striker; regression risk in finishing",
+          "tactical_variable": "Milan may control midfield and suppress Cagliari's chance creation despite defensive issues",
+          "contingency": "If Cagliari shows early shot accuracy, increase confidence in Over 2.5 and Draw"
+        }
+      },
+      "ChatGPT-4.5 Sonnet": {
+        "match_analysis": {
+          "causal_chain": "Home Star Striker Out -> Cagliari Attacking Threat Reduced -> Favors AC Milan",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "AWAY Stronged due to recent Cagliari xG uptick offset by key player injury",
+          "weather_referee_impact": "No significant impact expected"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "fair_odds": 1.45,
+            "market_odds": 1.53,
+            "probability": 0.69,
+            "value_gap": "6%",
+            "confidence": 8,
+            "risk_note": "Cagliari's increased xG offset by Striker absence"
+          },
+          "asian_handicap": {
+            "selection": "Away -1.0",
+            "fair_odds": 1.75,
+            "market_odds": 1.9,
+            "probability": 0.59,
+            "value_gap": "9%",
+            "confidence": 7,
+            "risk_note": "AC Milan can exploit Cagliari's defensive lapses"
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "fair_odds": 2.1,
+            "market_odds": 2.0,
+            "probability": 0.48,
+            "value_gap": "-2%",
+            "confidence": 4,
+            "risk_note": "Market suggests overs despite key striker absence"
+          }
+        },
+        "best_bet": {
+          "market": "asian_handicap",
+          "selection": "Away -1.0",
+          "win_rate": 0.59,
+          "reason": "Cagliari's increased chances nullified by Milan's attacking strength and striker absence"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": true,
+          "banker_reason": "Strong causal inference due to interplay of key injury and Milan's form",
+          "kelly_signal": "2.5",
+          "hedging_suggestion": "Consider half stake under 2.5 goals if Cagliari defence improves"
+        },
+        "risk_disclosure": {
+          "data_trap": "Overestimation of Cagliari without considering striker absence",
+          "tactical_variable": "AC Milan exploiting Cagliari defense with high press",
+          "contingency": "Re-evaluate stake if Cagliari tactical changes are observed pre-match"
+        }
+      },
+      "Consensus": {
+        "match_analysis": {
+          "causal_chain": "Cagliari's star striker out reduces goal threat, while AC Milan's defensive leaks persist, creating a mismatch favoring Milan's attack.",
+          "divergence_index": 0.92,
+          "market_chaos": "LOW",
+          "meta_weighting": "Enabled (Calibration-aware)",
+          "alpha_rating": "A",
+          "black_swan_option": null
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Away",
+            "probability": 0.5559,
+            "market_odds": 1.53,
+            "confidence": 8,
+            "value_gap": "22.6%"
+          },
+          "asian_handicap": {
+            "selection": "Away -1.0",
+            "probability": 0.5265,
+            "market_odds": 2.05,
+            "value_gap": "2.7%"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "probability": 0.53,
+            "market_odds": 1.95,
+            "value_gap": "3.0%"
+          }
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "kelly_signal": "1.0"
+        }
+      }
+    }
+  },
+  {
+    "id": "v4_real_1d65f2b6c7ea368eaf0a20b7c83ee668",
+    "match_info": {
+      "id": "v4_real_1d65f2b6c7ea368eaf0a20b7c83ee668",
+      "home_team": "Toulouse",
+      "away_team": "RC Lens",
+      "league": "soccer_france_ligue_one",
+      "date": "2026-01-02T19:45:00Z",
+      "real_odds": {
+        "1x2": {
+          "away": 2.5,
+          "home": 2.7,
+          "draw": 3.25
+        },
+        "spread": {},
+        "total": {}
+      }
+    },
+    "quant_analysis": {
+      "match_analysis": {
+        "causal_chain": "Away defense crisis \u2192 increased vulnerability to counter-attacks \u2192 home team advantage in high-variance scenario.",
+        "divergence_index": 0.4,
+        "market_chaos": "LOW",
+        "meta_weighting": "Enabled (Calibration-aware)",
+        "alpha_rating": "A",
+        "black_swan_option": null
+      },
+      "recommendations": {
+        "1x2": {
+          "selection": "Home",
+          "probability": 0.399,
+          "market_odds": 2.7,
+          "confidence": 8,
+          "value_gap": "6.9%"
+        },
+        "asian_handicap": {
+          "selection": "Home +0.25",
+          "probability": 0.5349,
+          "market_odds": 1.95,
+          "value_gap": "3.5%"
+        },
+        "over_under": {
+          "selection": "Over 2.5",
+          "probability": 0.518,
+          "market_odds": 2.1,
+          "value_gap": "1.8%"
+        }
+      },
+      "portfolio_strategy": {
+        "diamond_pick": false,
+        "kelly_signal": "1.0"
+      }
+    },
+    "models": {
+      "DeepSeek V3": {
+        "match_analysis": {
+          "causal_chain": "Away defense crisis \u2192 increased vulnerability to counter-attacks \u2192 home team advantage in high-variance scenario.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Away defense weakness creates tactical mismatch favoring home team's offensive opportunities.",
+          "weather_referee_impact": "No significant impact reported; standard conditions expected."
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 2.4,
+            "market_odds": 2.7,
+            "probability": 0.42,
+            "value_gap": "5.0%",
+            "confidence": 6,
+            "risk_note": "High variance in xG may lead to unpredictable outcomes despite tactical advantage."
+          },
+          "asian_handicap": {
+            "selection": "Home +0.25",
+            "fair_odds": 1.85,
+            "market_odds": 1.95,
+            "probability": 0.54,
+            "value_gap": "2.8%",
+            "confidence": 5,
+            "risk_note": "Limited market data increases uncertainty; rely on tactical inference from defense crisis."
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 2.0,
+            "market_odds": 2.1,
+            "probability": 0.5,
+            "value_gap": "2.4%",
+            "confidence": 4,
+            "risk_note": "High variance xG and away defense issues suggest goal potential, but data consistency is low."
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Home",
+          "win_rate": 0.42,
+          "reason": "Strongest causal link from away defense crisis to home advantage, with highest value gap among available markets."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.0",
+          "hedging_suggestion": "Consider small stake on Draw or Away to mitigate high variance risk."
+        },
+        "risk_disclosure": {
+          "data_trap": "Incomplete market odds (e.g., handicap and over/under specifics missing) limit precise probability calibration.",
+          "tactical_variable": "Away team's defensive adjustments could neutralize the crisis impact.",
+          "contingency": "If away defense stabilizes early, shift focus to under or draw scenarios."
+        }
+      },
+      "GPT-4o": {
+        "match_analysis": {
+          "causal_chain": "Away Defense Crisis -> Defensive Fragility -> Higher Concession Probability",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Home Advantage due to Away Defense Crisis",
+          "weather_referee_impact": "No significant impact"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 2.4,
+            "market_odds": 2.7,
+            "probability": 0.42,
+            "value_gap": "5%",
+            "confidence": 7,
+            "risk_note": "Home team could exploit defensive fragility of RC Lens."
+          },
+          "asian_handicap": {
+            "selection": "Away +0.5",
+            "fair_odds": 1.8,
+            "market_odds": 2.0,
+            "probability": 0.55,
+            "value_gap": "-5%",
+            "confidence": 4,
+            "risk_note": "Market odds reflect the current defensive issues."
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 1.9,
+            "market_odds": 2.1,
+            "probability": 0.53,
+            "value_gap": "0%",
+            "confidence": 6,
+            "risk_note": "Expected defensive errors might lead to more goals."
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Home",
+          "win_rate": 0.42,
+          "reason": "Given the away defense crisis, Toulouse is likely to capitalize on defensive errors."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "2.0",
+          "hedging_suggestion": "Consider small hedge on over 2.5 goals to cover potential defensive lapses."
+        },
+        "risk_disclosure": {
+          "data_trap": "xG variance may affect probability accuracy",
+          "tactical_variable": "Impact of Away Defense Crisis uncertain in real-time match conditions",
+          "contingency": "Monitor away lineup changes that could alter defensive structure."
+        }
+      },
+      "Claude 3.5 Sonnet": {
+        "match_analysis": {
+          "causal_chain": "Simulated analysis for Claude 3.5 Sonnet.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Team A slight edge.",
+          "weather_referee_impact": "None"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Draw",
+            "probability": 0.33,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 3.0
+          },
+          "asian_handicap": {
+            "selection": "Home -0.5",
+            "probability": 0.5,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 1.9
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "probability": 0.5,
+            "value_gap": "0%",
+            "confidence": 5,
+            "market_odds": 1.9
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Draw",
+          "win_rate": 0.33,
+          "reason": "Simulated"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "1.0",
+          "hedging_suggestion": ""
+        },
+        "risk_disclosure": {
+          "data_trap": "None",
+          "tactical_variable": "None",
+          "contingency": "None"
+        }
+      },
+      "Gemini 1.5 Pro": {
+        "match_analysis": {
+          "causal_chain": "Lens' defensive crisis weakens aerial duels, increasing Toulouse's chances from set pieces. Neutral xG suggests high variance.",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Neutral xG, Away Defense Crisis",
+          "weather_referee_impact": "Normal conditions, neutral referee."
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 2.55,
+            "market_odds": 2.7,
+            "probability": 0.39,
+            "value_gap": "5.6%",
+            "confidence": 6,
+            "risk_note": "High variance in xG; defensive errors can swing the match."
+          },
+          "asian_handicap": {
+            "selection": "Home +0.0",
+            "fair_odds": 1.95,
+            "market_odds": 1.9,
+            "probability": 0.51,
+            "value_gap": "2.6%",
+            "confidence": 4,
+            "risk_note": "Defensive crisis may not fully translate to handicap impact."
+          },
+          "over_under": {
+            "selection": "Under 2.5",
+            "fair_odds": 1.88,
+            "market_odds": 1.9,
+            "probability": 0.53,
+            "value_gap": "1.1%",
+            "confidence": 3,
+            "risk_note": "Neutral xG, potential for a cagey affair despite defense issues."
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Home",
+          "win_rate": 0.39,
+          "reason": "Home win presents the highest value gap given Lens' defensive issues."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "banker_reason": "",
+          "kelly_signal": "0.5",
+          "hedging_suggestion": "Consider hedging on a draw at 70 minutes if the score is level."
+        },
+        "risk_disclosure": {
+          "data_trap": "Neutral xG could lead to unexpected goal bursts.",
+          "tactical_variable": "Lens' ability to adapt their defensive setup mid-game.",
+          "contingency": "Early goal for Lens could negate Toulouse's home advantage."
+        }
+      },
+      "Qwen 3 Max": {
+        "match_analysis": {
+          "causal_chain": "RC Lens Away Defense Crisis -> Toulouse Target High Press -> Increased Home xG Conversion Opportunity -> Higher Drawdown Risk for Away",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Slight Home Advantage due to Away Defense Weakness and Neutral xG Context",
+          "weather_referee_impact": "No adverse weather or referee bias reported; neutral impact"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 2.45,
+            "market_odds": 2.7,
+            "probability": 0.408,
+            "value_gap": "11.1%",
+            "confidence": 8,
+            "risk_note": "High variance in xG, but defensive vulnerability favors home pressure"
+          },
+          "asian_handicap": {
+            "selection": "Home -0.25",
+            "fair_odds": 2.52,
+            "market_odds": 2.6,
+            "probability": 0.397,
+            "value_gap": "3.2%",
+            "confidence": 6,
+            "risk_note": "Split handicap reduces edge; moderate value due to soft line"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 2.38,
+            "market_odds": 2.4,
+            "probability": 0.42,
+            "value_gap": "0.8%",
+            "confidence": 5,
+            "risk_note": "Neutral xG with high variance supports over, but lack of clear trend limits confidence"
+          }
+        },
+        "best_bet": {
+          "market": "1x2",
+          "selection": "Home",
+          "win_rate": 0.408,
+          "reason": "Strongest value gap (11.1%) driven by causal mismatch: RC Lens defensive crisis directly increases Toulouse's scoring probability despite neutral xG baseline"
+        },
+        "portfolio_strategy": {
+          "diamond_pick": true,
+          "banker_reason": "High confidence (8/10) and significant value gap (11.1%) on Home win; market underpricing due to public overreaction to Toulouse's average form",
+          "kelly_signal": "2.8",
+          "hedging_suggestion": "Partial hedge on Draw at 3.25+ if odds remain elevated within 90 minutes pre-kickoff"
+        },
+        "risk_disclosure": {
+          "data_trap": "xG neutrality may mask short-term volatility; actual shot quality not fully captured",
+          "tactical_variable": "If RC Lens shifts to low-block early, Home xG compression likely",
+          "contingency": "Monitor first 15 mins: if Away concedes early pressing phase, re-evaluate full commitment"
+        }
+      },
+      "ChatGPT-4.5 Sonnet": {
+        "match_analysis": {
+          "causal_chain": "Away defense crisis -> Home potential attack edge -> Expected high variance",
+          "market_sentiment": "Normal",
+          "fundamental_rating": "Neutral ground due to xG variance",
+          "weather_referee_impact": "No significant impact noted"
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "fair_odds": 2.55,
+            "market_odds": 2.7,
+            "probability": 0.39,
+            "value_gap": "4%",
+            "confidence": 6,
+            "risk_note": "Away defense issues could sway result but variance is high."
+          },
+          "asian_handicap": {
+            "selection": "Home 0",
+            "fair_odds": 1.85,
+            "market_odds": 2.0,
+            "probability": 0.54,
+            "value_gap": "7%",
+            "confidence": 7,
+            "risk_note": "Insurance on draw increases safety amid high variance."
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "fair_odds": 1.95,
+            "market_odds": 1.9,
+            "probability": 0.52,
+            "value_gap": "-1%",
+            "confidence": 5,
+            "risk_note": "Neutral xG but market odds fair; little to no value."
+          }
+        },
+        "best_bet": {
+          "market": "asian_handicap",
+          "selection": "Home 0",
+          "win_rate": 0.54,
+          "reason": "Home advantage with Away defense issues increases likelihood of at least a draw."
+        },
+        "portfolio_strategy": {
+          "diamond_pick": true,
+          "banker_reason": "High value gap and insurance against draw provides strong safety net.",
+          "kelly_signal": "3.0",
+          "hedging_suggestion": "Consider a small hedge on Draw in 1x2 market to mitigate risk."
+        },
+        "risk_disclosure": {
+          "data_trap": "Reliance on Away's defensive crisis.",
+          "tactical_variable": "Variance from potential tactical shifts unaccounted.",
+          "contingency": "Change strategy if Away announces defensive reinforcements."
+        }
+      },
+      "Consensus": {
+        "match_analysis": {
+          "causal_chain": "Away defense crisis \u2192 increased vulnerability to counter-attacks \u2192 home team advantage in high-variance scenario.",
+          "divergence_index": 0.4,
+          "market_chaos": "LOW",
+          "meta_weighting": "Enabled (Calibration-aware)",
+          "alpha_rating": "A",
+          "black_swan_option": null
+        },
+        "recommendations": {
+          "1x2": {
+            "selection": "Home",
+            "probability": 0.399,
+            "market_odds": 2.7,
+            "confidence": 8,
+            "value_gap": "6.9%"
+          },
+          "asian_handicap": {
+            "selection": "Home +0.25",
+            "probability": 0.5349,
+            "market_odds": 1.95,
+            "value_gap": "3.5%"
+          },
+          "over_under": {
+            "selection": "Over 2.5",
+            "probability": 0.518,
+            "market_odds": 2.1,
+            "value_gap": "1.8%"
+          }
+        },
+        "portfolio_strategy": {
+          "diamond_pick": false,
+          "kelly_signal": "1.0"
+        }
+      }
+    }
+  }
+]

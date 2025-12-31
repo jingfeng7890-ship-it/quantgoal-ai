@@ -1,0 +1,152 @@
+[
+  {
+    "id": "test-win-settlement-101",
+    "date": "2025-12-18 13:00:00",
+    "type": "Test Parlay",
+    "odds": "5.00",
+    "stake": 100,
+    "status": "WON",
+    "pnl": 400.0,
+    "legs": []
+  },
+  {
+    "id": "tx_0x1235b582...a4a6",
+    "date": "2025-12-16",
+    "type": "3-Fold Parlay",
+    "legs": [
+      {
+        "match": "Toulouse vs RC Lens",
+        "selection": "Toulouse",
+        "result": "Pending"
+      },
+      {
+        "match": "Newcastle United vs Chelsea",
+        "selection": "Newcastle United",
+        "result": "Pending"
+      },
+      {
+        "match": "1. FC Köln vs Union Berlin",
+        "selection": "Draw",
+        "result": "Pending"
+      }
+    ],
+    "total_odds": "22.75",
+    "stake": 100,
+    "status": "PENDING",
+    "pnl": 0,
+    "roi": "0%",
+    "verified_on": "QuantChain"
+  },
+  {
+    "id": "tx_0x23fd4159...fbbd",
+    "date": "2025-12-15",
+    "type": "3-Fold Parlay",
+    "legs": [
+      {
+        "match": "Toulouse vs RC Lens",
+        "selection": "Toulouse",
+        "result": "Pending"
+      },
+      {
+        "match": "Lazio vs Cremonese",
+        "selection": "Lazio",
+        "result": "Pending"
+      },
+      {
+        "match": "Newcastle United vs Chelsea",
+        "selection": "Newcastle United",
+        "result": "Pending"
+      }
+    ],
+    "total_odds": "11.34",
+    "stake": 100,
+    "status": "PENDING",
+    "pnl": 0,
+    "roi": "0%",
+    "verified_on": "QuantChain"
+  },
+  {
+    "id": "tx_4F_74597",
+    "date": "2025-12-14",
+    "type": "4-Fold",
+    "legs": [
+      {
+        "match": "Crystal Palace vs Manchester City",
+        "selection": "Away",
+        "result": "Pending"
+      },
+      {
+        "match": "FC Kairat vs Club Brugge",
+        "selection": "Away",
+        "result": "Pending"
+      },
+      {
+        "match": "Auxerre vs Lille",
+        "selection": "Away",
+        "result": "Pending"
+      },
+      {
+        "match": "SC Freiburg vs Borussia Dortmund",
+        "selection": "Away",
+        "result": "Pending"
+      }
+    ],
+    "total_odds": 11.02,
+    "stake": 100,
+    "status": "PENDING",
+    "pnl": 0,
+    "roi": "0%",
+    "verified_on": "QuantChain High"
+  },
+  {
+    "id": "tx_3F_72643",
+    "date": "2025-12-14",
+    "type": "3-Fold",
+    "legs": [
+      {
+        "match": "Lyon vs Le Havre",
+        "selection": "Home",
+        "result": "Pending"
+      },
+      {
+        "match": "Fiorentina vs Hellas Verona",
+        "selection": "Home",
+        "result": "Pending"
+      },
+      {
+        "match": "Sevilla vs Oviedo",
+        "selection": "Home",
+        "result": "Pending"
+      }
+    ],
+    "total_odds": 6.19,
+    "stake": 100,
+    "status": "PENDING",
+    "pnl": 0,
+    "roi": "0%",
+    "verified_on": "QuantChain Med"
+  },
+  {
+    "id": "tx_2F_91342",
+    "date": "2025-12-14",
+    "type": "2-Fold",
+    "legs": [
+      {
+        "match": "Lyon vs Le Havre",
+        "selection": "Home",
+        "result": "Pending"
+      },
+      {
+        "match": "FC Kairat vs Club Brugge",
+        "selection": "Away",
+        "result": "Pending"
+      }
+    ],
+    "total_odds": 2.62,
+    "stake": 100,
+    "status": "PENDING",
+    "pnl": 0,
+    "roi": "0%",
+    "verified_on": "QuantChain Low"
+  }
+]

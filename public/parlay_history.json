@@ -1,0 +1,86 @@
+[
+  {
+    "id": "tx_4F_59313",
+    "date": "2025-12-31",
+    "type": "4-Fold",
+    "legs": [
+      {
+        "match": "Borussia Dortmund vs Borussia Monchengladbach",
+        "selection": "Draw",
+        "result": "Pending"
+      },
+      {
+        "match": "Valencia vs Mallorca",
+        "selection": "Home",
+        "result": "Pending"
+      },
+      {
+        "match": "Newcastle United vs Chelsea",
+        "selection": "Away",
+        "result": "Pending"
+      },
+      {
+        "match": "Lazio vs Cremonese",
+        "selection": "Home",
+        "result": "Pending"
+      }
+    ],
+    "total_odds": 38.87,
+    "stake": 100,
+    "status": "PENDING",
+    "pnl": 0,
+    "roi": "0%",
+    "verified_on": "QuantChain High"
+  },
+  {
+    "id": "tx_3F_63850",
+    "date": "2025-12-31",
+    "type": "3-Fold",
+    "legs": [
+      {
+        "match": "Toulouse vs RC Lens",
+        "selection": "Away",
+        "result": "Pending"
+      },
+      {
+        "match": "Valencia vs Mallorca",
+        "selection": "Home",
+        "result": "Pending"
+      },
+      {
+        "match": "Newcastle United vs Chelsea",
+        "selection": "Away",
+        "result": "Pending"
+      }
+    ],
+    "total_odds": 12.01,
+    "stake": 100,
+    "status": "PENDING",
+    "pnl": 0,
+    "roi": "0%",
+    "verified_on": "QuantChain Med"
+  },
+  {
+    "id": "tx_2F_66529",
+    "date": "2025-12-31",
+    "type": "2-Fold",
+    "legs": [
+      {
+        "match": "Valencia vs Mallorca",
+        "selection": "Home",
+        "result": "Pending"
+      },
+      {
+        "match": "Borussia Dortmund vs Borussia Monchengladbach",
+        "selection": "Draw",
+        "result": "Pending"
+      }
+    ],
+    "total_odds": 9.5,
+    "stake": 100,
+    "status": "PENDING",
+    "pnl": 0,
+    "roi": "0%",
+    "verified_on": "QuantChain Low"
+  }
+]

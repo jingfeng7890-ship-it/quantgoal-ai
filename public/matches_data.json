@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "match_v2_001",
+    "match_info": {
+      "home_team": "Liverpool",
+      "away_team": "Arsenal",
+      "league": "Premier League",
+      "date": "2025-12-12T18:00:09.038590",
+      "status": "Scheduled"
+    },
+    "market_odds": {
+      "1x2": {
+        "home": 2.15,
+        "draw": 3.6,
+        "away": 3.1
+      }
+    },
+    "model_predictions": {
+      "ChatGPT-5.2": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.87
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.56
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.36
+          },
+          "correct_score": [
+            {
+              "score": "0-0",
+              "prob": 0.139
+            },
+            {
+              "score": "2-1",
+              "prob": 0.129
+            },
+            {
+              "score": "1-0",
+              "prob": 0.081
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 74,
+          "kelly_fraction": 0.046,
+          "value_edge": -0.043
+        }
+      },
+      "DeepSeek V3": {
+        "basic": {
+          "1x2": "Away",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Away",
+            "odds": 1.97
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.56
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.95
+          },
+          "correct_score": [
+            {
+              "score": "1-1",
+              "prob": 0.197
+            },
+            {
+              "score": "1-2",
+              "prob": 0.091
+            },
+            {
+              "score": "0-0",
+              "prob": 0.088
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 72,
+          "kelly_fraction": 0.023,
+          "value_edge": 0.096
+        }
+      },
+      "Claude Opus 4.5": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.86
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.56
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.97
+          },
+          "correct_score": [
+            {
+              "score": "2-1",
+              "prob": 0.175
+            },
+            {
+              "score": "1-2",
+              "prob": 0.097
+            },
+            {
+              "score": "1-0",
+              "prob": 0.089
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 95,
+          "kelly_fraction": 0.05,
+          "value_edge": -0.001
+        }
+      },
+      "Gemini 3 Pro": {
+        "basic": {
+          "1x2": "Draw",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 2.0
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.58
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.3
+          },
+          "correct_score": [
+            {
+              "score": "2-1",
+              "prob": 0.176
+            },
+            {
+              "score": "0-0",
+              "prob": 0.17
+            },
+            {
+              "score": "1-2",
+              "prob": 0.13
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 61,
+          "kelly_fraction": 0.019,
+          "value_edge": 0.106
+        }
+      },
+      "Grok 3 (Beta)": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.98
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.57
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.84
+          },
+          "correct_score": [
+            {
+              "score": "1-2",
+              "prob": 0.121
+            },
+            {
+              "score": "2-0",
+              "prob": 0.075
+            },
+            {
+              "score": "0-1",
+              "prob": 0.055
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 59,
+          "kelly_fraction": 0.038,
+          "value_edge": 0.119
+        }
+      },
+      "Qwen 3 Max": {
+        "basic": {
+          "1x2": "Away",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Away",
+            "odds": 2.03
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.56
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.49
+          },
+          "correct_score": [
+            {
+              "score": "2-1",
+              "prob": 0.183
+            },
+            {
+              "score": "1-0",
+              "prob": 0.127
+            },
+            {
+              "score": "2-0",
+              "prob": 0.076
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 71,
+          "kelly_fraction": 0.072,
+          "value_edge": 0.14
+        }
+      }
+    },
+    "models": [
+      {
+        "model": "ChatGPT-5.2",
+        "confidence": 74,
+        "logic": "We predict Home based on analyzing all factors."
+      },
+      {
+        "model": "DeepSeek V3",
+        "confidence": 72,
+        "logic": "xG models indicate massive value on **Away**. Market implies 3.1 but my fair price is lower. Statistical dominance detected."
+      },
+      {
+        "model": "Claude Opus 4.5",
+        "confidence": 95,
+        "logic": "While **Home** seems likely, variance is high. I recommend hedging with Asian Handicap -0.0. Preserve capital."
+      },
+      {
+        "model": "Gemini 3 Pro",
+        "confidence": 61,
+        "logic": "I heard the Draw captain just had a bust-up in training! The vibes are off for the opponent. Psychology points to **Draw**."
+      },
+      {
+        "model": "Grok 3 (Beta)",
+        "confidence": 59,
+        "logic": "Boring bets are for losers. **Home** is where the chaos is. Fading the public consensus. LFG!"
+      },
+      {
+        "model": "Qwen 3 Max",
+        "confidence": 71,
+        "logic": "Edge detected: +14.000000000000002%. Signal: **Away**. Kelly Stake: 7.199999999999999%."
+      }
+    ],
+    "consensus": {
+      "signal": "Value on Home",
+      "target": "Home",
+      "confidence": 50,
+      "market_odds": 2.0,
+      "ai_probability": 0.5,
+      "edge_percent": 0.0,
+      "kelly_stake": "5.0%"
+    }
+  },
+  {
+    "id": "match_v2_002",
+    "match_info": {
+      "home_team": "Real Madrid",
+      "away_team": "Atletico Madrid",
+      "league": "La Liga",
+      "date": "2025-12-12T18:00:09.039226",
+      "status": "Scheduled"
+    },
+    "market_odds": {
+      "1x2": {
+        "home": 1.95,
+        "draw": 3.4,
+        "away": 3.8
+      }
+    },
+    "model_predictions": {
+      "ChatGPT-5.2": {
+        "basic": {
+          "1x2": "Draw",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 2.0
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.55
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.37
+          },
+          "correct_score": [
+            {
+              "score": "1-1",
+              "prob": 0.194
+            },
+            {
+              "score": "1-2",
+              "prob": 0.135
+            },
+            {
+              "score": "0-0",
+              "prob": 0.085
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 77,
+          "kelly_fraction": 0.039,
+          "value_edge": 0.047
+        }
+      },
+      "DeepSeek V3": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 2.02
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.56
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.59
+          },
+          "correct_score": [
+            {
+              "score": "2-0",
+              "prob": 0.197
+            },
+            {
+              "score": "2-1",
+              "prob": 0.101
+            },
+            {
+              "score": "1-2",
+              "prob": 0.051
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 88,
+          "kelly_fraction": 0.071,
+          "value_edge": 0.059
+        }
+      },
+      "Claude Opus 4.5": {
+        "basic": {
+          "1x2": "Away",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Away",
+            "odds": 1.9
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.62
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.6
+          },
+          "correct_score": [
+            {
+              "score": "2-1",
+              "prob": 0.178
+            },
+            {
+              "score": "1-0",
+              "prob": 0.096
+            },
+            {
+              "score": "0-0",
+              "prob": 0.057
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 95,
+          "kelly_fraction": 0.054,
+          "value_edge": 0.033
+        }
+      },
+      "Gemini 3 Pro": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": 0.5,
+            "pick": "Home",
+            "odds": 1.96
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.63
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.39
+          },
+          "correct_score": [
+            {
+              "score": "0-0",
+              "prob": 0.122
+            },
+            {
+              "score": "2-0",
+              "prob": 0.066
+            },
+            {
+              "score": "1-0",
+              "prob": 0.057
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 66,
+          "kelly_fraction": 0.05,
+          "value_edge": 0.015
+        }
+      },
+      "Grok 3 (Beta)": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": 0.5,
+            "pick": "Home",
+            "odds": 1.89
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.63
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.6
+          },
+          "correct_score": [
+            {
+              "score": "1-1",
+              "prob": 0.139
+            },
+            {
+              "score": "0-1",
+              "prob": 0.104
+            },
+            {
+              "score": "1-0",
+              "prob": 0.101
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 64,
+          "kelly_fraction": 0.039,
+          "value_edge": 0.077
+        }
+      },
+      "Qwen 3 Max": {
+        "basic": {
+          "1x2": "Draw",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.97
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.63
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.37
+          },
+          "correct_score": [
+            {
+              "score": "1-2",
+              "prob": 0.155
+            },
+            {
+              "score": "0-0",
+              "prob": 0.136
+            },
+            {
+              "score": "1-0",
+              "prob": 0.122
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 81,
+          "kelly_fraction": 0.044,
+          "value_edge": -0.013
+        }
+      }
+    },
+    "models": [
+      {
+        "model": "ChatGPT-5.2",
+        "confidence": 77,
+        "logic": "We predict Draw based on analyzing all factors."
+      },
+      {
+        "model": "DeepSeek V3",
+        "confidence": 88,
+        "logic": "xG models indicate massive value on **Home**. Market implies 1.95 but my fair price is lower. Statistical dominance detected."
+      },
+      {
+        "model": "Claude Opus 4.5",
+        "confidence": 95,
+        "logic": "While **Away** seems likely, variance is high. I recommend hedging with Asian Handicap -0.0. Preserve capital."
+      },
+      {
+        "model": "Gemini 3 Pro",
+        "confidence": 66,
+        "logic": "I heard the Home captain just had a bust-up in training! The vibes are off for the opponent. Psychology points to **Home**."
+      },
+      {
+        "model": "Grok 3 (Beta)",
+        "confidence": 64,
+        "logic": "Boring bets are for losers. **Home** is where the chaos is. Fading the public consensus. LFG!"
+      },
+      {
+        "model": "Qwen 3 Max",
+        "confidence": 81,
+        "logic": "Edge detected: +-1.3%. Signal: **Draw**. Kelly Stake: 4.3999999999999995%."
+      }
+    ],
+    "consensus": {
+      "signal": "Value on Home",
+      "target": "Home",
+      "confidence": 50,
+      "market_odds": 2.0,
+      "ai_probability": 0.5,
+      "edge_percent": 0.0,
+      "kelly_stake": "5.0%"
+    }
+  },
+  {
+    "id": "match_v2_003",
+    "match_info": {
+      "home_team": "Inter Milan",
+      "away_team": "Juventus",
+      "league": "Serie A",
+      "date": "2025-12-12T18:00:09.039492",
+      "status": "Scheduled"
+    },
+    "market_odds": {
+      "1x2": {
+        "home": 2.05,
+        "draw": 3.2,
+        "away": 3.75
+      }
+    },
+    "model_predictions": {
+      "ChatGPT-5.2": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.96
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.58
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.57
+          },
+          "correct_score": [
+            {
+              "score": "2-0",
+              "prob": 0.164
+            },
+            {
+              "score": "1-1",
+              "prob": 0.142
+            },
+            {
+              "score": "0-1",
+              "prob": 0.069
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 61,
+          "kelly_fraction": 0.054,
+          "value_edge": -0.034
+        }
+      },
+      "DeepSeek V3": {
+        "basic": {
+          "1x2": "Draw",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.86
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.6
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.31
+          },
+          "correct_score": [
+            {
+              "score": "1-2",
+              "prob": 0.178
+            },
+            {
+              "score": "2-0",
+              "prob": 0.158
+            },
+            {
+              "score": "2-1",
+              "prob": 0.103
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 74,
+          "kelly_fraction": 0.035,
+          "value_edge": 0.14
+        }
+      },
+      "Claude Opus 4.5": {
+        "basic": {
+          "1x2": "Away",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Away",
+            "odds": 1.96
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.54
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.56
+          },
+          "correct_score": [
+            {
+              "score": "1-0",
+              "prob": 0.193
+            },
+            {
+              "score": "1-1",
+              "prob": 0.185
+            },
+            {
+              "score": "0-0",
+              "prob": 0.104
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 76,
+          "kelly_fraction": 0.069,
+          "value_edge": 0.052
+        }
+      },
+      "Gemini 3 Pro": {
+        "basic": {
+          "1x2": "Draw",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Away",
+            "odds": 1.91
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.58
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.37
+          },
+          "correct_score": [
+            {
+              "score": "2-0",
+              "prob": 0.162
+            },
+            {
+              "score": "2-1",
+              "prob": 0.124
+            },
+            {
+              "score": "0-1",
+              "prob": 0.068
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 66,
+          "kelly_fraction": 0.037,
+          "value_edge": 0.035
+        }
+      },
+      "Grok 3 (Beta)": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": 0.5,
+            "pick": "Home",
+            "odds": 1.96
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.53
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.57
+          },
+          "correct_score": [
+            {
+              "score": "0-0",
+              "prob": 0.187
+            },
+            {
+              "score": "1-1",
+              "prob": 0.136
+            },
+            {
+              "score": "1-2",
+              "prob": 0.056
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 84,
+          "kelly_fraction": 0.053,
+          "value_edge": -0.042
+        }
+      },
+      "Qwen 3 Max": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": 0.5,
+            "pick": "Home",
+            "odds": 2.03
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.58
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.47
+          },
+          "correct_score": [
+            {
+              "score": "1-1",
+              "prob": 0.181
+            },
+            {
+              "score": "0-1",
+              "prob": 0.17
+            },
+            {
+              "score": "2-1",
+              "prob": 0.08
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 64,
+          "kelly_fraction": 0.013,
+          "value_edge": 0.033
+        }
+      }
+    },
+    "models": [
+      {
+        "model": "ChatGPT-5.2",
+        "confidence": 61,
+        "logic": "We predict Home based on analyzing all factors."
+      },
+      {
+        "model": "DeepSeek V3",
+        "confidence": 74,
+        "logic": "xG models indicate massive value on **Draw**. Market implies 3.75 but my fair price is lower. Statistical dominance detected."
+      },
+      {
+        "model": "Claude Opus 4.5",
+        "confidence": 76,
+        "logic": "While **Away** seems likely, variance is high. I recommend hedging with Asian Handicap -0.0. Preserve capital."
+      },
+      {
+        "model": "Gemini 3 Pro",
+        "confidence": 66,
+        "logic": "I heard the Draw captain just had a bust-up in training! The vibes are off for the opponent. Psychology points to **Draw**."
+      },
+      {
+        "model": "Grok 3 (Beta)",
+        "confidence": 84,
+        "logic": "Boring bets are for losers. **Home** is where the chaos is. Fading the public consensus. LFG!"
+      },
+      {
+        "model": "Qwen 3 Max",
+        "confidence": 64,
+        "logic": "Edge detected: +3.3000000000000003%. Signal: **Home**. Kelly Stake: 1.3%."
+      }
+    ],
+    "consensus": {
+      "signal": "Value on Home",
+      "target": "Home",
+      "confidence": 50,
+      "market_odds": 2.0,
+      "ai_probability": 0.5,
+      "edge_percent": 0.0,
+      "kelly_stake": "5.0%"
+    }
+  },
+  {
+    "id": "match_v2_004",
+    "match_info": {
+      "home_team": "Bayern Munich",
+      "away_team": "Dortmund",
+      "league": "Bundesliga",
+      "date": "2025-12-12T18:00:09.039677",
+      "status": "Scheduled"
+    },
+    "market_odds": {
+      "1x2": {
+        "home": 1.65,
+        "draw": 4.2,
+        "away": 4.5
+      }
+    },
+    "model_predictions": {
+      "ChatGPT-5.2": {
+        "basic": {
+          "1x2": "Draw",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.97
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.58
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.29
+          },
+          "correct_score": [
+            {
+              "score": "1-0",
+              "prob": 0.175
+            },
+            {
+              "score": "1-1",
+              "prob": 0.087
+            },
+            {
+              "score": "0-0",
+              "prob": 0.055
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 83,
+          "kelly_fraction": 0.049,
+          "value_edge": -0.042
+        }
+      },
+      "DeepSeek V3": {
+        "basic": {
+          "1x2": "Draw",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.93
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.59
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.28
+          },
+          "correct_score": [
+            {
+              "score": "1-1",
+              "prob": 0.193
+            },
+            {
+              "score": "2-0",
+              "prob": 0.116
+            },
+            {
+              "score": "1-0",
+              "prob": 0.067
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 58,
+          "kelly_fraction": 0.065,
+          "value_edge": -0.024
+        }
+      },
+      "Claude Opus 4.5": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.93
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.6
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.79
+          },
+          "correct_score": [
+            {
+              "score": "2-1",
+              "prob": 0.165
+            },
+            {
+              "score": "1-1",
+              "prob": 0.128
+            },
+            {
+              "score": "1-0",
+              "prob": 0.109
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 63,
+          "kelly_fraction": 0.026,
+          "value_edge": 0.068
+        }
+      },
+      "Gemini 3 Pro": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 2.01
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.58
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.53
+          },
+          "correct_score": [
+            {
+              "score": "0-1",
+              "prob": 0.161
+            },
+            {
+              "score": "2-1",
+              "prob": 0.161
+            },
+            {
+              "score": "1-0",
+              "prob": 0.052
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 59,
+          "kelly_fraction": 0.061,
+          "value_edge": 0.135
+        }
+      },
+      "Grok 3 (Beta)": {
+        "basic": {
+          "1x2": "Away",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Away",
+            "odds": 1.89
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.61
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.61
+          },
+          "correct_score": [
+            {
+              "score": "0-0",
+              "prob": 0.169
+            },
+            {
+              "score": "1-1",
+              "prob": 0.09
+            },
+            {
+              "score": "2-0",
+              "prob": 0.087
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 86,
+          "kelly_fraction": 0.026,
+          "value_edge": -0.027
+        }
+      },
+      "Qwen 3 Max": {
+        "basic": {
+          "1x2": "Away",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Away",
+            "odds": 1.87
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.54
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.61
+          },
+          "correct_score": [
+            {
+              "score": "1-2",
+              "prob": 0.194
+            },
+            {
+              "score": "0-0",
+              "prob": 0.157
+            },
+            {
+              "score": "1-0",
+              "prob": 0.07
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 56,
+          "kelly_fraction": 0.068,
+          "value_edge": -0.048
+        }
+      }
+    },
+    "models": [
+      {
+        "model": "ChatGPT-5.2",
+        "confidence": 83,
+        "logic": "We predict Draw based on analyzing all factors."
+      },
+      {
+        "model": "DeepSeek V3",
+        "confidence": 58,
+        "logic": "xG models indicate massive value on **Draw**. Market implies 4.5 but my fair price is lower. Statistical dominance detected."
+      },
+      {
+        "model": "Claude Opus 4.5",
+        "confidence": 63,
+        "logic": "While **Home** seems likely, variance is high. I recommend hedging with Asian Handicap -0.0. Preserve capital."
+      },
+      {
+        "model": "Gemini 3 Pro",
+        "confidence": 59,
+        "logic": "I heard the Home captain just had a bust-up in training! The vibes are off for the opponent. Psychology points to **Home**."
+      },
+      {
+        "model": "Grok 3 (Beta)",
+        "confidence": 86,
+        "logic": "Boring bets are for losers. **Away** is where the chaos is. Fading the public consensus. LFG!"
+      },
+      {
+        "model": "Qwen 3 Max",
+        "confidence": 56,
+        "logic": "Edge detected: +-4.8%. Signal: **Away**. Kelly Stake: 6.800000000000001%."
+      }
+    ],
+    "consensus": {
+      "signal": "Value on Away",
+      "target": "Away",
+      "confidence": 33,
+      "market_odds": 2.0,
+      "ai_probability": 0.33,
+      "edge_percent": -33.3,
+      "kelly_stake": "3.3%"
+    }
+  },
+  {
+    "id": "match_v2_005",
+    "match_info": {
+      "home_team": "PSG",
+      "away_team": "Marseille",
+      "league": "Ligue 1",
+      "date": "2025-12-12T18:00:09.040203",
+      "status": "Scheduled"
+    },
+    "market_odds": {
+      "1x2": {
+        "home": 1.45,
+        "draw": 4.8,
+        "away": 6.0
+      }
+    },
+    "model_predictions": {
+      "ChatGPT-5.2": {
+        "basic": {
+          "1x2": "Away",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Away",
+            "odds": 1.88
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.63
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.74
+          },
+          "correct_score": [
+            {
+              "score": "2-0",
+              "prob": 0.156
+            },
+            {
+              "score": "2-1",
+              "prob": 0.155
+            },
+            {
+              "score": "1-2",
+              "prob": 0.087
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 55,
+          "kelly_fraction": 0.066,
+          "value_edge": 0.048
+        }
+      },
+      "DeepSeek V3": {
+        "basic": {
+          "1x2": "Away",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Away",
+            "odds": 1.99
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.58
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.8
+          },
+          "correct_score": [
+            {
+              "score": "2-1",
+              "prob": 0.169
+            },
+            {
+              "score": "1-2",
+              "prob": 0.168
+            },
+            {
+              "score": "0-0",
+              "prob": 0.073
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 93,
+          "kelly_fraction": 0.059,
+          "value_edge": -0.017
+        }
+      },
+      "Claude Opus 4.5": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.91
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.61
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.43
+          },
+          "correct_score": [
+            {
+              "score": "1-1",
+              "prob": 0.2
+            },
+            {
+              "score": "2-1",
+              "prob": 0.12
+            },
+            {
+              "score": "0-1",
+              "prob": 0.08
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 64,
+          "kelly_fraction": 0.025,
+          "value_edge": -0.017
+        }
+      },
+      "Gemini 3 Pro": {
+        "basic": {
+          "1x2": "Draw",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Away",
+            "odds": 1.86
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.58
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.34
+          },
+          "correct_score": [
+            {
+              "score": "2-1",
+              "prob": 0.192
+            },
+            {
+              "score": "0-1",
+              "prob": 0.176
+            },
+            {
+              "score": "1-0",
+              "prob": 0.064
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 57,
+          "kelly_fraction": 0.047,
+          "value_edge": 0.145
+        }
+      },
+      "Grok 3 (Beta)": {
+        "basic": {
+          "1x2": "Home",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.91
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.62
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "Yes",
+            "prob": 0.96
+          },
+          "correct_score": [
+            {
+              "score": "2-0",
+              "prob": 0.173
+            },
+            {
+              "score": "0-1",
+              "prob": 0.148
+            },
+            {
+              "score": "1-0",
+              "prob": 0.134
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 61,
+          "kelly_fraction": 0.069,
+          "value_edge": 0.128
+        }
+      },
+      "Qwen 3 Max": {
+        "basic": {
+          "1x2": "Draw",
+          "asian_handicap": {
+            "line": -0.0,
+            "pick": "Home",
+            "odds": 1.93
+          },
+          "over_under": {
+            "line": 2.5,
+            "pick": "Over",
+            "prob": 0.56
+          }
+        },
+        "advanced": {
+          "btts": {
+            "pick": "No",
+            "prob": 0.27
+          },
+          "correct_score": [
+            {
+              "score": "1-0",
+              "prob": 0.18
+            },
+            {
+              "score": "1-1",
+              "prob": 0.177
+            },
+            {
+              "score": "2-1",
+              "prob": 0.139
+            }
+          ],
+          "half_full": {
+            "pick": "Draw/Home",
+            "odds": 4.5
+          }
+        },
+        "statistical": {
+          "confidence": 85,
+          "kelly_fraction": 0.033,
+          "value_edge": 0.104
+        }
+      }
+    },
+    "models": [
+      {
+        "model": "ChatGPT-5.2",
+        "confidence": 55,
+        "logic": "We predict Away based on analyzing all factors."
+      },
+      {
+        "model": "DeepSeek V3",
+        "confidence": 93,
+        "logic": "xG models indicate massive value on **Away**. Market implies 6.0 but my fair price is lower. Statistical dominance detected."
+      },
+      {
+        "model": "Claude Opus 4.5",
+        "confidence": 64,
+        "logic": "While **Home** seems likely, variance is high. I recommend hedging with Asian Handicap -0.0. Preserve capital."
+      },
+      {
+        "model": "Gemini 3 Pro",
+        "confidence": 57,
+        "logic": "I heard the Draw captain just had a bust-up in training! The vibes are off for the opponent. Psychology points to **Draw**."
+      },
+      {
+        "model": "Grok 3 (Beta)",
+        "confidence": 61,
+        "logic": "Boring bets are for losers. **Home** is where the chaos is. Fading the public consensus. LFG!"
+      },
+      {
+        "model": "Qwen 3 Max",
+        "confidence": 85,
+        "logic": "Edge detected: +10.4%. Signal: **Draw**. Kelly Stake: 3.3000000000000003%."
+      }
+    ],
+    "consensus": {
+      "signal": "Value on Away",
+      "target": "Away",
+      "confidence": 33,
+      "market_odds": 2.0,
+      "ai_probability": 0.33,
+      "edge_percent": -33.3,
+      "kelly_stake": "3.3%"
+    }
+  }
+]

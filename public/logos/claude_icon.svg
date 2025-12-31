@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Claude App Icon: Beige/Brown Background, Text/Symbol -->
+  <rect width="1024" height="1024" rx="200" fill="#F0E4D3"/> <!-- Claude's signature beige -->
+  <!-- Official Claude "Star" Symbol (or approximation) -->
+  <path d="M512 85.3L402.3 270.9 207.4 207.4 270.9 402.3 85.3 512l185.6 109.7-63.5 194.9 194.9-63.5L512 938.7l109.7-185.6 194.9 63.5-63.5-194.9L938.7 512 753.1 402.3l63.5-194.9-194.9 63.5z" fill="#D97757"/> <!-- Clay Orange -->
+</svg>

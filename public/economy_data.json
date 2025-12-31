@@ -1,0 +1,26 @@
+{
+  "users": {
+    "user_001": {
+      "balance": 16000,
+      "transactions": [
+        {
+          "timestamp": "2025-12-19T11:49:52.296276",
+          "type": "GRANT",
+          "amount": 10000,
+          "description": "Initial Central Bank Grant"
+        },
+        {
+          "timestamp": "2025-12-19T11:49:52.314424",
+          "type": "PURCHASE",
+          "package": "PRO",
+          "amount": 6000,
+          "price_usd": 4.99
+        }
+      ]
+    }
+  },
+  "global_stats": {
+    "total_coins_issued": 16000,
+    "total_burn": 0
+  }
+}

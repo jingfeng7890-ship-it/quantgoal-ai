@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Qwen App Icon: Purple Gradient/Solid Background, Qwen Symbol -->
+  <rect width="1024" height="1024" rx="200" fill="#6A4CDB"/> <!-- Qwen Purple -->
+  <path d="M220 220h160v400H220z" fill="#FFFFFF"/>
+  <path d="M460 220h160v240H460z" fill="#FFFFFF"/>
+  <circle cx="540" cy="580" r="80" fill="#FFFFFF"/>
+  <path d="M700 220h104v584H700z" fill="#FFFFFF"/>
+</svg>

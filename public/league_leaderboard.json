@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Claude Opus 4.5",
+    "name": "Claude Opus 4.5",
+    "roi_monthly": 23.3,
+    "strike_rate": 63,
+    "alpha": 18.3,
+    "risk": "Low"
+  },
+  {
+    "id": "Qwen 3 Max",
+    "name": "Qwen 3 Max",
+    "roi_monthly": 2.6,
+    "strike_rate": 52,
+    "alpha": -2.4,
+    "risk": "Med"
+  },
+  {
+    "id": "DeepSeek V3",
+    "name": "DeepSeek V3",
+    "roi_monthly": 2.0,
+    "strike_rate": 52,
+    "alpha": -3.0,
+    "risk": "Med"
+  },
+  {
+    "id": "Grok 3 (Beta)",
+    "name": "Grok 3 (Beta)",
+    "roi_monthly": -3.5,
+    "strike_rate": 49,
+    "alpha": -8.5,
+    "risk": "High"
+  },
+  {
+    "id": "ChatGPT-5.2",
+    "name": "ChatGPT-5.2",
+    "roi_monthly": -7.1,
+    "strike_rate": 47,
+    "alpha": -12.1,
+    "risk": "Med"
+  },
+  {
+    "id": "Gemini 3 Pro",
+    "name": "Gemini 3 Pro",
+    "roi_monthly": -24.1,
+    "strike_rate": 38,
+    "alpha": -29.1,
+    "risk": "Med"
+  }
+]

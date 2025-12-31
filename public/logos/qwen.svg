@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="currentColor">
+  <!-- Qwen / Tongyi Qianwen Logo (Abstract shapes) -->
+  <path d="M220 220h160v400H220z" fill="#818CF8"/>
+  <path d="M460 220h160v240H460z" fill="#818CF8"/>
+  <circle cx="540" cy="580" r="80" fill="#818CF8"/>
+  <path d="M700 220h104v584H700z" fill="#818CF8"/>
+</svg>
