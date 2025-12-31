@@ -50,7 +50,9 @@ export function Header() {
                             <>
                                 <div className="flex items-center gap-2 text-sm text-zinc-300 mr-2 bg-zinc-900/50 px-3 py-1.5 rounded-full border border-zinc-800">
                                     <UserIcon size={14} className="text-[var(--brand)]" />
-                                    <span className="hidden sm:inline font-mono text-xs">{user.displayName || user.email?.split('@')[0]}</span>
+                                    <span className="hidden sm:inline font-mono text-xs">
+                                        {user.user_metadata?.full_name || user.email?.split('@')[0]}
+                                    </span>
                                     {isPro && <span className="px-1.5 py-0.5 bg-[var(--brand)] text-black text-[9px] font-bold rounded uppercase">Pro</span>}
                                 </div>
 

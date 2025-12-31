@@ -1,14 +1,19 @@
 import { NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 
-const supabase = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+export const dynamic = 'force-dynamic';
+
+function getSupabase() {
+    return createClient(
+        process.env.NEXT_PUBLIC_SUPABASE_URL!,
+        process.env.SUPABASE_SERVICE_ROLE_KEY!
+    );
+}
 
 export async function GET() {
     try {
         // Fetch raw data from Supabase
+        const supabase = getSupabase();
         const { data: rawData, error } = await supabase
             .from('parlay_tickets')
             .select('*')
@@ -65,6 +70,7 @@ export async function POST(request: Request) {
             verified_on: "User Action"
         };
 
+        const supabase = getSupabase();
         const { data, error } = await supabase
             .from('parlay_tickets')
             .insert(newEntry)
