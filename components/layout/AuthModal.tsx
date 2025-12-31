@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/Button';
-import { X, Mail, Chrome } from 'lucide-react';
+import { X, Mail, Chrome, Apple } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 
 interface AuthModalProps {
@@ -12,7 +12,7 @@ interface AuthModalProps {
 
 export function AuthModal({ isOpen, onClose }: AuthModalProps) {
     const [isLogin, setIsLogin] = useState(true);
-    const { loginWithGoogle, loginWithEmail, registerWithEmail, loginWithDemo } = useAuth();
+    const { loginWithGoogle, loginWithApple, loginWithEmail, registerWithEmail, loginWithDemo } = useAuth();
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -26,10 +26,19 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
             setLoading(true);
             setError('');
             await loginWithGoogle();
-            onClose();
         } catch (e: any) {
             setError(e.message);
-        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleAppleLogin = async () => {
+        try {
+            setLoading(true);
+            setError('');
+            await loginWithApple();
+        } catch (e: any) {
+            setError(e.message);
             setLoading(false);
         }
     };
@@ -86,16 +95,29 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
                     </p>
                 </div>
 
-                <div className="space-y-4">
+                <div className="grid grid-cols-2 gap-3 mb-4">
                     <Button
                         variant="outline"
-                        className="w-full h-12 bg-white text-black hover:bg-zinc-200 border-transparent font-semibold gap-2"
+                        className="h-12 bg-white text-black hover:bg-zinc-200 border-transparent font-semibold gap-2"
                         onClick={handleGoogleLogin}
                         disabled={loading}
                     >
                         <Chrome size={20} />
-                        Continue with Google
+                        Google
                     </Button>
+
+                    <Button
+                        variant="ghost"
+                        className="h-12 bg-zinc-950 text-white hover:bg-zinc-800 border-zinc-800 font-semibold gap-2"
+                        onClick={handleAppleLogin}
+                        disabled={loading}
+                    >
+                        <Apple size={20} />
+                        Apple
+                    </Button>
+                </div>
+
+                <div className="space-y-4">
 
                     <Button
                         variant="ghost"

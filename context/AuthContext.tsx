@@ -10,6 +10,7 @@ interface AuthContextType {
     loading: boolean;
     isPro: boolean;
     loginWithGoogle: () => Promise<void>;
+    loginWithApple: () => Promise<void>;
     loginWithEmail: (email: string, pass: string) => Promise<void>;
     registerWithEmail: (email: string, pass: string) => Promise<void>;
     loginWithDemo: () => void;
@@ -67,6 +68,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         if (error) console.error('Google login error:', error);
     };
 
+    const loginWithApple = async () => {
+        const { error } = await supabase.auth.signInWithOAuth({
+            provider: 'apple',
+            options: {
+                redirectTo: `${window.location.origin}/auth/callback`,
+            },
+        });
+        if (error) console.error('Apple login error:', error);
+    };
+
     const loginWithEmail = async (email: string, pass: string) => {
         // We use Server Actions for this now, but keeping this for legacy component compatibility
         // or we can implement client-side login here if needed.
@@ -106,7 +117,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     };
 
     return (
-        <AuthContext.Provider value={{ user, loading, isPro, loginWithGoogle, loginWithEmail, registerWithEmail, loginWithDemo, logout, upgradeToPro }}>
+        <AuthContext.Provider value={{ user, loading, isPro, loginWithGoogle, loginWithApple, loginWithEmail, registerWithEmail, loginWithDemo, logout, upgradeToPro }}>
             {children}
         </AuthContext.Provider>
     );
