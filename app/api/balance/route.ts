@@ -5,14 +5,20 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export const dynamic = 'force-dynamic';
 
-// Service Role Client (For reading profiles bypassing RLS)
-const supabaseAdmin = createAdminClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
-
 export async function GET(req: NextRequest) {
     try {
+        const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+        const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+
+        if (!serviceRoleKey || !supabaseUrl) {
+            console.error("Missing SUPABASE env vars in API route");
+            // If checking during build, this might be why. Return 500 but don't crash module.
+            return NextResponse.json({ error: "Configuration Error" }, { status: 500 });
+        }
+
+        // Initialize Service Role Client lazily
+        const supabaseAdmin = createAdminClient(supabaseUrl, serviceRoleKey);
+
         let user = null;
 
         // 1. Try Cookie Auth via @supabase/ssr helper
