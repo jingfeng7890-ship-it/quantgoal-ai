@@ -1,5 +1,5 @@
 
-import { createClient } from '@/utils/supabase/server'; // Use the project's own helper
+import { createClient } from '../../../utils/supabase/server'; // Use the project's own helper
 import { createClient as createAdminClient } from '@supabase/supabase-js';
 import { NextResponse } from 'next/server';
 

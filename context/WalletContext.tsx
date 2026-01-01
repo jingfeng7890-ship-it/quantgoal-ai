@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import { createClient } from '@/utils/supabase/client';
+import { createClient } from '../utils/supabase/client';
 
 const STORAGE_KEY = 'quantgoal_wallet_balance';
 const TRANSACTIONS_KEY = 'quantgoal_wallet_txs';
