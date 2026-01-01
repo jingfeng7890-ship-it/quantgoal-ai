@@ -43,12 +43,7 @@ function SidebarItem({ icon: Icon, label, active = false, href }: { icon: any, l
 
 function DashboardContent({ children }: { children: React.ReactNode }) {
     const { user, loading, logout, isPro } = useAuth();
-    // We can use wallet here via context if needed, but primarily for passing to children or Widget
-    // Actually BettingSlipWidget handles its own wallet usage now via context if we update it.
-    // But BettingSlipWidget current code expects 'wallet' prop.
-    // We will update BettingSlipWidget to use useWallet() internally too, OR pass it here. 
-    // Let's pass it for now to be safe with existing Widget code until we update it.
-    const wallet = useWallet();
+    // Wallet is now handled internally by BettingSlipWidget via context
 
     const router = useRouter();
     const pathname = usePathname();
@@ -196,7 +191,7 @@ function DashboardContent({ children }: { children: React.ReactNode }) {
               Ideally BettingSlipWidget should consume context internally, 
               but to avoid modifying it right now, we pass it.
             */}
-            <BettingSlipWidget wallet={wallet} />
+            <BettingSlipWidget />
         </BettingSlipProvider>
     );
 }
