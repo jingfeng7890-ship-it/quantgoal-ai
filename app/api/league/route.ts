@@ -10,10 +10,7 @@ export async function GET(req: NextRequest) {
         const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
         if (!url || !key) {
-            console.error("DEBUG: League API Config Error");
-            console.error("- NEXT_PUBLIC_SUPABASE_URL found:", !!url, url ? `...${url.slice(-5)}` : "MISSING");
-            console.error("- SUPABASE_SERVICE_ROLE_KEY found:", !!key, key ? `...${key.slice(-5)}` : "MISSING");
-            return NextResponse.json({ error: "Configuration missing in Vercel. Check Logs." }, { status: 500 });
+            return NextResponse.json({ error: "Configuration missing" }, { status: 500 });
         }
 
         const supabase = createAdminClient(url, key);
