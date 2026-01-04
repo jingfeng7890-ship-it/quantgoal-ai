@@ -63,15 +63,15 @@ export function ChampionLeague() {
 
                     if (count === 0) throw new Error('No models found');
 
-                    const totalBalance = models.reduce((acc: number, m: any) => acc + ((m.wallets?.core || 0) + (m.wallets?.challenge || 0) + (m.wallets?.high_yield || 0)), 0);
+                    const totalBalance = models.reduce((acc: number, m: any) => acc + ((m.latest_wallets?.core || 0) + (m.latest_wallets?.challenge || 0) + (m.latest_wallets?.high_yield || 0)), 0);
                     const avgBalance = totalBalance / count;
                     const totalROI = models.reduce((acc: number, m: any) => acc + (m.stats?.roi || 0), 0);
 
                     // Detailed Consensus Calculation
                     const avgWallets = models.reduce((acc: any, m: any) => ({
-                        core: (acc.core as number) + ((m.wallets?.core || 0) as number),
-                        challenge: (acc.challenge as number) + ((m.wallets?.challenge || 0) as number),
-                        high_yield: (acc.high_yield as number) + ((m.wallets?.high_yield || 0) as number)
+                        core: (acc.core as number) + ((m.latest_wallets?.core || 0) as number),
+                        challenge: (acc.challenge as number) + ((m.latest_wallets?.challenge || 0) as number),
+                        high_yield: (acc.high_yield as number) + ((m.latest_wallets?.high_yield || 0) as number)
                     }), { core: 0, challenge: 0, high_yield: 0 });
 
                     const coreAvg = (avgWallets as any).core / count;
@@ -446,7 +446,7 @@ export function ChampionLeague() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                         {tier1.map((model: any, idx: number) => {
                             const isFollowing = following.includes(model.id);
-                            const totalFunds = (model.wallets?.core || 0) + (model.wallets?.challenge || 0) + (model.wallets?.high_yield || 0);
+                            const totalFunds = (model.latest_wallets?.core || 0) + (model.latest_wallets?.challenge || 0) + (model.latest_wallets?.high_yield || 0);
 
                             return (
                                 <Card
@@ -500,7 +500,7 @@ export function ChampionLeague() {
                     {/* 3. TIER 2 MODELS (Grid of 3 - Darker/Smaller) */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 opacity-75 hover:opacity-100 transition-opacity">
                         {tier2.map((model: any, idx: number) => {
-                            const totalFunds = (model.wallets?.core || 0) + (model.wallets?.challenge || 0) + (model.wallets?.high_yield || 0);
+                            const totalFunds = (model.latest_wallets?.core || 0) + (model.latest_wallets?.challenge || 0) + (model.latest_wallets?.high_yield || 0);
                             const isFollowing = following.includes(model.id);
 
                             return (
